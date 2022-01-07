@@ -1,0 +1,13 @@
+.first-layer {
+    background-color: grey;
+    padding: 20%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 75%;
+}   
