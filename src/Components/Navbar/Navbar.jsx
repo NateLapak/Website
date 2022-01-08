@@ -4,7 +4,7 @@ import { NavLink} from "react-router-dom";
 const NavbarMain = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                 <Container>
                 <NavLink to="/homepage" style={{textDecoration: "none"}}>
                     <Navbar.Brand>Nathan Lapak</Navbar.Brand>

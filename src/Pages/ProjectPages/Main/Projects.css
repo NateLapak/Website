@@ -1,0 +1,21 @@
+.projects {
+    margin: 75px;
+}
+
+.projects-main-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.earsketch-img {
+    height: 700px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.earsketch-text {
+    color: black;
+}
+

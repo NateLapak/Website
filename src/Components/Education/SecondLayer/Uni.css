@@ -1,12 +1,10 @@
-.second-l {
+.uni {
     background-color: #D8D8D8;
     padding: 20%;
     height: 250px;
+    text-align: center;
 }
 
-.second-l-p {
-    
-    font-size: 20px;
-    top: 50%;
-
+.header-text {
+    font-size: 50px;
 }

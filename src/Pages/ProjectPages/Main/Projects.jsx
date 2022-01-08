@@ -1,19 +1,46 @@
-import {Routes, Route} from "react-router-dom"
-import AIandML from "../Examples/AIandML"
-import GameDev from "../Examples/GameDev"
-import IOSandWeb from "../Examples/IOS-Web"
-import Miscellaneous from "../Examples/Miscellaneous"
+import Carousel from 'react-bootstrap/Carousel'
+import "./Projects.css"
 
 const Projects = () => {
-    return (
-        <section>
-            <h1>Main Project page</h1>
-            <Routes>
-                <Route path="AI-ML" element={<AIandML />} />
-                <Route path="game-dev" element={<GameDev />} />
-                <Route path="IOS-web" element={<IOSandWeb />} />
-                <Route path="Miscellaneous" element={<Miscellaneous />} />
-            </Routes>
+  return (
+      <section className="projects">
+          <h1 className="projects-main-header">Example projects</h1>
+            
+          <Carousel>
+            <Carousel.Item interval={1000}>
+               <img
+                className="d-block w-100"
+                src="/Pong.png"
+                alt="First slide"
+              />
+            <Carousel.Caption>
+              <h3>Pong game in unity</h3>
+              <p>First game devlopment project</p>
+            </Carousel.Caption>
+           </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <img
+                  className="earsketch-img"
+                  src="/EarSketch.png"
+                  alt="Second slide"
+                />
+                <Carousel.Caption className="earsketch-text">
+                  <h3>Music with Earsketch</h3>
+                  <p>Implemented using Python</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="/NumberSystems.png"
+                  alt="Third slide"
+                />
+                <Carousel.Caption className="numberSystems-text">
+                  <h3>Number Systems</h3>
+                  <p>Made with java!</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+          </Carousel>
         </section>
     )
 }

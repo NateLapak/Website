@@ -1,8 +1,11 @@
+import HighSchool from "../Components/Education/FirstLayer/HighSchool"
+import Uni from "../Components/Education/SecondLayer/Uni"
+
 const Education = () => {
     return (
         <section>
-
-            <h1>Education page</h1>
+            <HighSchool />
+            <Uni />
         </section>
     )
 }

@@ -1,7 +1,9 @@
+import FirstLayer from "../Components/Contact/FirstLayer"
+
 const Contact = () => {
     return (
         <section>
-            <h1>Contact page</h1>
+            <FirstLayer />
         </section>
     )
 }
