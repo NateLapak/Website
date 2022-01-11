@@ -1,11 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel'
+import LayerOne from "../../../Components/Projects/Main/LayerOne"
 import "./Projects.css"
 
 const Projects = () => {
   return (
       <section className="projects">
-          <h1 className="projects-main-header">Example projects</h1>
-            
+          <LayerOne />
           <Carousel>
             <Carousel.Item interval={1000}>
                <img
@@ -20,8 +20,8 @@ const Projects = () => {
            </Carousel.Item>
               <Carousel.Item interval={1000}>
                 <img
-                  className="earsketch-img"
-                  src="/EarSketch.png"
+                  className="d-block w-100"
+                  src="/EarSketch-pictures/EarSketch.png"
                   alt="Second slide"
                 />
                 <Carousel.Caption className="earsketch-text">
@@ -32,7 +32,7 @@ const Projects = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="/NumberSystems.png"
+                  src="/NumberSystem-pictures/NumberSystems.png"
                   alt="Third slide"
                 />
                 <Carousel.Caption className="numberSystems-text">

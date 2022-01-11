@@ -7,7 +7,7 @@ import Education from "./Pages/Education"
 import Contact from "./Pages/Contact"
 import Projects from "./Pages/ProjectPages/Main/Projects"
 
-import AIandML from './Pages/ProjectPages/Examples/AIandML';
+import AIandML from "./Pages/ProjectPages/Examples/AIandML"
 import GameDev from './Pages/ProjectPages/Examples/GameDev';
 import IOSandWeb from './Pages/ProjectPages/Examples/IOS-Web';
 import Miscellaneous from './Pages/ProjectPages/Examples/Miscellaneous';
@@ -29,7 +29,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           
           <Route path="/projects/" element={<Projects />} />
-          <Route path="projects/game-dev" element={<GameDev />} />
+          <Route path="/projects/game-dev" element={<GameDev />} />
           <Route path="projects/AI-ML" element={<AIandML />} />
           <Route path="projects/IOS-web" element={<IOSandWeb />} />
           <Route path="projects/Miscellaneous" element={<Miscellaneous />} />

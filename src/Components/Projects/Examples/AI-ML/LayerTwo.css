@@ -1,0 +1,14 @@
+.Handwritten-project {
+    background-color: #D8D8D8;
+    padding: 5%;
+    height: 600px;
+    text-align: center;
+}
+
+.sample-code {
+    float: left;
+}
+
+.digit {
+    float: right;
+}

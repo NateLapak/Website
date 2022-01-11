@@ -1,5 +1,10 @@
 .final-layer {
     background-color: grey;
-    padding: 20%;
-    height: 250px;
+    padding: 5%;
+}
+
+.final-layer-header {
+    font-size: 50px;
+    text-align: center;
+    margin: 5%;
 }

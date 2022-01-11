@@ -1,7 +1,11 @@
+import LayerOne from "../../../Components/Projects/Examples/AI-ML/LayerOne"
+import LayerTwo from "../../../Components/Projects/Examples/AI-ML/LayerTwo"
+
 const AIandML = () => {
     return (
         <section>
-            <h1>Artificial intelligence and machine learning page</h1>
+            <LayerOne />
+            <LayerTwo />
         </section>
     )
 }

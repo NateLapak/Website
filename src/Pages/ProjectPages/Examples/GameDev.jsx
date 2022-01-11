@@ -1,7 +1,11 @@
+import LayerOne from "../../../Components/Projects/Examples/GameDev/LayerOne"
+import LayerTwo from "../../../Components/Projects/Examples/GameDev/LayerTwo"
+
 const GameDev = () => {
     return (
         <section>
-            <h1>Game dec page</h1>
+            <LayerOne />
+            <LayerTwo />
         </section>
     )
 }
