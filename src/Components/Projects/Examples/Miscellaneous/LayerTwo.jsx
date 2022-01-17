@@ -1,4 +1,3 @@
-import {Figure} from "react-bootstrap"
 import "./LayerTwo.css"
 
 const LayerTwo = () => {
@@ -11,30 +10,10 @@ const LayerTwo = () => {
             </p>
             <h4>Click <a href="https://github.com/NateLapak/EarSketch-project">here</a> for the github repository.</h4>
 
-            <Figure style={{float: "left", margin: "3%"}}>
-                <Figure.Image
-                    width={500}
-                    height={300}
-                    alt="171x180"
-                    src="/EarSketch-pictures/EarSketch.png"
-                />
-                <Figure.Caption>
-                    EarSketch DAW (Digital audio workstation)
-                </Figure.Caption>
-            </Figure>
-
-            <Figure style={{float: "right", margin: "3%"}}>
-                <Figure.Image
-                    width={500}
-                    height={300}
-                    alt="171x180"
-                    src="/EarSketch-pictures/EarSketch-code.png"
-                />
-                <Figure.Caption>
-                    EarSketch code
-                </Figure.Caption>
-            </Figure>
-
+            <div className="pictures">
+                <img className="Earsketch-ex" src="/EarSketch-pictures/EarSketch.png" width="40%" height="50%" alt=""></img>
+                <img className="Earsketch-code" src="/EarSketch-pictures/EarSketch-code.png" width="40%" height="50%" alt=""></img>
+            </div>
 
         </section>
     )

@@ -1,6 +1,10 @@
 .AIandML-header {
-    background-color: grey;
-    padding: 20%;
-    height: 250px;
+    background-color: #E4E2E2;
+    padding: 5%;
     text-align: center;
+}
+
+.ML-paragraph {
+    margin-top: 3%;
+    font-size: 25px;
 }

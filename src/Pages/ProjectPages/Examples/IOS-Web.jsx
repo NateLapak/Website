@@ -5,6 +5,7 @@ const IOSandWeb = () => {
     return (
         <section>
             <LayerOne />
+            <hr></hr>
             <LayerTwo />
         </section>
     )

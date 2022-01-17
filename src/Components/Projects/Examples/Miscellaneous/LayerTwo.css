@@ -1,7 +1,17 @@
 .EarSketch {
-    background-color: #D8D8D8;
+    background-color: #E4E2E2;
     padding: 5%;
     height: 600px;
     text-align: center;
     
+}
+
+.Earsketch-ex {
+    margin-top: 4%;
+    float: left;
+}
+
+.Earsketch-code {
+    margin-top: 4%;
+    float: right;
 }

@@ -1,7 +1,10 @@
 .Miscellaneous-layer1 {
-    background-color: grey;
-    padding: 20%;
-    height: 250px;
+    background-color: #E4E2E2;
+    padding: 5%;
     text-align: center;
+}
+
+.Miscellaneous-p {
+    font-size: 25px;
 }
 

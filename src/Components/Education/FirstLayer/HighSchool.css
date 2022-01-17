@@ -1,18 +1,17 @@
 .highSchool {
-    background-color:  grey;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    background-color:  #E4E2E2;
+    padding-bottom: 18%;
+    padding-top: 15%;
     text-align: center;
 }
 
-.header-text {
-    color: white;
-    font-size: 50px;
-    margin: 2%;
+.highSchool-header {
+    color: black;
+    font-size: 75px;
 }
 
 .highSchool-paragraph {
-    color: white;
+    color: black;
     margin: 4%;
     font-size: 25px;
 }

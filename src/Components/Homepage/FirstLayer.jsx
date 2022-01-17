@@ -4,8 +4,12 @@ const FirstLayer = () => {
     return (
         <div className="first-layer">
             <div>
-                <img className="profile-img" src="https://image.shutterstock.com/image-photo/portrait-smiling-african-american-student-260nw-1194497215.jpg"></img>
-                <h1 className="profile-text">Hello, I'm Nathan</h1>
+                <h1 className="profile-text">Nathan Lapak</h1>
+                <img src="/HomepageImages/React.png" height="10%" width="15%" alt=""></img>
+                <img src="/HomepageImages/Python.png" height="10%" width="10%" alt=""></img> 
+                <img src="/HomepageImages/Java.png" height="10%" width="12%" alt=""></img>
+                <img src="/HomepageImages/Boot.png" height="10%" width="10%" alt=""></img>
+                <img src="/HomepageImages/Swift.png" height="10%" width="10%" alt=""></img>
             </div>
         </div>
     )

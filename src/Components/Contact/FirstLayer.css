@@ -1,5 +1,32 @@
 .contact {
-    background-color: grey;
-    height: 500px;
-    padding: 30%
+    background-color: #E4E2E2;
+    padding: 21%;
+    text-align: center;
+}
+
+.contact-head {
+    font-size: 55px;
+}
+
+.contact-button {
+    width: 25%;
+    height: 20%;
+    margin: 2%;
+}
+
+.linkedin, .github, .email {
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin {
+    font-size: 14px;
+}
+
+.github {
+    font-size: 18px;
+}
+
+.email {
+    font-size: 20px
 }

@@ -1,4 +1,4 @@
-import {Navbar, Nav, NavDropdown, Container, Form, FormControl, Button} from "react-bootstrap"
+import {Navbar, Nav, NavDropdown, Container} from "react-bootstrap"
 import { NavLink} from "react-router-dom";
 
 const NavbarMain = () => {
@@ -7,7 +7,7 @@ const NavbarMain = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                 <NavLink to="/homepage" style={{textDecoration: "none"}}>
-                    <Navbar.Brand>Nathan Lapak</Navbar.Brand>
+                    <Navbar.Brand>Home</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -47,18 +47,9 @@ const NavbarMain = () => {
                         </NavLink>
                     
                     </NavDropdown>
-\
                     </Nav>
                     <Nav>
-                    <Form className="d-flex">
-                        <FormControl
-                        type="search"
-                        placeholder="Find specific page"
-                        className="me-2"
-                        aria-label="Search"
-                        />
-                        <Button variant="outline-light">Search</Button>
-                    </Form>
+
                     </Nav>
                 </Navbar.Collapse>
                 </Container>

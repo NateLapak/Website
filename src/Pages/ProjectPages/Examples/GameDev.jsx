@@ -5,6 +5,7 @@ const GameDev = () => {
     return (
         <section>
             <LayerOne />
+            <hr></hr>
             <LayerTwo />
         </section>
     )

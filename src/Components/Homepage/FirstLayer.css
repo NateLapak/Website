@@ -1,11 +1,14 @@
 .first-layer {
-    background-color: grey;
-    padding: 20%;
-    height: 250px;
+    background-color: #E4E2E2;
+    padding: 18%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.profile-text {
+    font-size: 100px;
 }
 
 .profile-img {

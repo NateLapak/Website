@@ -6,7 +6,9 @@ const Miscellaneous = () => {
     return (
         <section>
             <LayerOne />
+            <hr></hr>
             <LayerTwo />
+            <hr></hr>
             <LayerThree />
         </section>
     )

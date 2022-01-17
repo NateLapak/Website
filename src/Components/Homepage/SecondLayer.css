@@ -1,5 +1,5 @@
 .aboutMe {
-    background-color: #D8D8D8;
+    background-color: #3b82f6;
     padding-bottom: 20%;
     padding-top: 10%;
     height: auto;  
@@ -7,10 +7,12 @@
 
 .aboutMe-header{
     padding: 1%;
+    color: white;
     font-size: 100px;
     text-align: center;
 }
 .aboutMe-paragraph {
+    color: white;
     font-size: 30px;
     text-align: center;
     margin: 2%;
