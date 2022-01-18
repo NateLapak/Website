@@ -1,5 +1,8 @@
 import "./LayerTwo.css"
 
+import EarSketch from "../../../../Images/EarSketch-pictures/EarSketch.png"
+import EarSketchCode from "../../../../Images/EarSketch-pictures/EarSketch-code.png"
+
 const LayerTwo = () => {
     return (
         <section className="EarSketch">
@@ -10,10 +13,8 @@ const LayerTwo = () => {
             </p>
             <h4>Click <a href="https://github.com/NateLapak/EarSketch-project">here</a> for the github repository.</h4>
 
-            <div className="pictures">
-                <img className="Earsketch-ex" src="/EarSketch-pictures/EarSketch.png" width="40%" height="50%" alt=""></img>
-                <img className="Earsketch-code" src="/EarSketch-pictures/EarSketch-code.png" width="40%" height="50%" alt=""></img>
-            </div>
+            <img className="Earsketch-ex" src={EarSketch} width="40%" height="50%" alt=""></img>
+            <img className="Earsketch-code" src={EarSketchCode} width="40%" height="50%" alt=""></img>
 
         </section>
     )

@@ -1,7 +1,8 @@
 import {Card, Button} from "react-bootstrap"
 
 import IOSDevLogo from "../../Images/IOS-web-pictures/IOS-dev.png"
-import MLlogo from "../../Images/ML-pictures/Neural-network.webp"
+import MLlogo from "../../Images/ML-pictures/Neural-network.webp" 
+
 
 import "./FinalLayer.css"
 

@@ -3,6 +3,8 @@ import LayerOne from "../../../Components/Projects/Main/LayerOne"
 import "./Projects.css"
 
 import PongGame from "../../../Images/GameDev-pictures/Pong-gameplay.png"
+import EarSketch from "../../../Images/EarSketch-pictures/EarSketch.png"
+import NumberSystem from "../../../Images/NumberSystem-pictures/NumberSystems.png"
 
 const Projects = () => {
   return (
@@ -23,7 +25,7 @@ const Projects = () => {
               <Carousel.Item interval={1000}>
                 <img
                   className="d-block w-100"
-                  src="/EarSketch-pictures/EarSketch.png"
+                  src={EarSketch}
                   alt="Second slide"
                 />
                 <Carousel.Caption className="earsketch-text">
@@ -34,7 +36,7 @@ const Projects = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="/NumberSystem-pictures/NumberSystems.png"
+                  src={NumberSystem}
                   alt="Third slide"
                 />
                 <Carousel.Caption className="numberSystems-text">
