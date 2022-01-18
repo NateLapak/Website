@@ -2,6 +2,8 @@ import Carousel from 'react-bootstrap/Carousel'
 import LayerOne from "../../../Components/Projects/Main/LayerOne"
 import "./Projects.css"
 
+import PongGame from "../../../Images/GameDev-pictures/Pong-gameplay.png"
+
 const Projects = () => {
   return (
       <section className="projects">
@@ -10,7 +12,7 @@ const Projects = () => {
             <Carousel.Item interval={1000}>
                <img
                 className="d-block w-100"
-                src="/Pong.png"
+                src={PongGame}
                 alt="First slide"
               />
             <Carousel.Caption>
