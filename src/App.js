@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Route, Routes, Navigate} from "react-router-dom";
+import {Route, Routes, Navigate, Redirect} from "react-router-dom";
 
 import NavbarMain from "./Components/Navbar/Navbar";
 import Homepage from "./Pages/Homepage"
@@ -24,6 +24,8 @@ function App() {
       <main>
         <Routes>
           <Route path="" element={<Navigate replace to="homepage" />} />
+          <Route path="/Website" element={<Navigate replace to="homepage" />} />
+
           <Route path="/homepage" element={<Homepage />} /> 
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />

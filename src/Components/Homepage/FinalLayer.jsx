@@ -1,4 +1,8 @@
 import {Card, Button} from "react-bootstrap"
+
+import IOSDevLogo from "../../Images/IOS-web-pictures/IOS-dev.png"
+import MLlogo from "../../Images/ML-pictures/Neural-network.webp"
+
 import "./FinalLayer.css"
 
 const FinalLayer = () => {
@@ -7,7 +11,7 @@ const FinalLayer = () => {
             <h1 className="final-layer-header">Goals and current projects</h1>
 
             <Card border="dark" style={{ width: '20rem', float: "right", marginRight: "2%"}}>
-            <Card.Img variant="top" src="/IOS-web-pictures/IOS-dev.png" />
+            <Card.Img variant="top" src={IOSDevLogo} />
             <Card.Body>
                 <Card.Title>IOS development</Card.Title>
                 <Card.Text>
@@ -19,7 +23,7 @@ const FinalLayer = () => {
             </Card>
             
             <Card border="dark" style={{ width: '20rem', height: "31rem", marginLeft: "2%"}}>
-            <Card.Img variant="top" src="/ML-pictures/Neural-network.webp" />
+            <Card.Img variant="top" src={MLlogo} />
             <Card.Body>
                 <Card.Title>Learn ML and AI</Card.Title>
                 <Card.Text>
