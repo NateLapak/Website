@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.f39a796c.css",
-    "main.js": "/Website/static/js/main.c4efd66c.js",
+    "main.css": "/Website/static/css/main.edb36c86.css",
+    "main.js": "/Website/static/js/main.c02c0439.js",
     "static/media/EarSketch.png": "/Website/static/media/EarSketch.0b49e0ab02fc925620b8.png",
     "static/media/SampleCode.png": "/Website/static/media/SampleCode.c2c560da72a2b4cacf3f.png",
     "static/media/FirstWebpage-code.png": "/Website/static/media/FirstWebpage-code.00a09da8176008089ad1.png",
@@ -13,15 +13,15 @@
     "static/media/Pong-gameplay.png": "/Website/static/media/Pong-gameplay.1c87130b57f46be5ce38.png",
     "static/media/IOS-dev.png": "/Website/static/media/IOS-dev.a4b82cf5fcbd6640878d.png",
     "static/media/React.png": "/Website/static/media/React.73ac128ace7cbddf3d39.png",
-    "static/media/Swift.png": "/Website/static/media/Swift.1cb4e147a88a29e46a5a.png",
+    "static/media/C++.png": "/Website/static/media/C++.70bc05a5d99634b38151.png",
     "static/media/Python.png": "/Website/static/media/Python.f1a07429fcf04073a41e.png",
     "static/media/Java.png": "/Website/static/media/Java.f03bb7a7778ab831e4db.png",
     "index.html": "/Website/index.html",
-    "main.f39a796c.css.map": "/Website/static/css/main.f39a796c.css.map",
-    "main.c4efd66c.js.map": "/Website/static/js/main.c4efd66c.js.map"
+    "main.edb36c86.css.map": "/Website/static/css/main.edb36c86.css.map",
+    "main.c02c0439.js.map": "/Website/static/js/main.c02c0439.js.map"
   },
   "entrypoints": [
-    "static/css/main.f39a796c.css",
-    "static/js/main.c4efd66c.js"
+    "static/css/main.edb36c86.css",
+    "static/js/main.c02c0439.js"
   ]
 }
