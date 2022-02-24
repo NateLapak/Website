@@ -1,8 +1,9 @@
 import {Card, Button} from "react-bootstrap"
+import {Route, Navigate} from "react-router-dom"
+import { useState } from "react"
 
 import IOSDevLogo from "../../Images/IOS-web-pictures/IOS-dev.png"
 import MLlogo from "../../Images/ML-pictures/Neural-network.webp" 
-
 
 import "./FinalLayer.css"
 
@@ -19,7 +20,7 @@ const FinalLayer = () => {
                 Learning Ios development sounds interesting to me and 
                 I think it will be fun developing and publishing ios apps.
                 </Card.Text>
-                <Button variant="primary">IOS-dev page</Button>
+                <Button variant="primary" href="https://github.com/NateLapak/Quizzler-app">Quizzler app repository</Button>
             </Card.Body>
             </Card>
             
@@ -32,7 +33,9 @@ const FinalLayer = () => {
                 artificial intelligence. I enjoyed making my neural network handwritten
                 project and I think that it will be beneficial in the future.
                 </Card.Text>
-                <Button variant="primary">A.I and ML page</Button>
+                <Button variant="primary" href="https://github.com/NateLapak/Handwritten-digit-using-neural-networks">
+                    ML neural network project
+                </Button>
             </Card.Body>
             </Card>
         </div>
