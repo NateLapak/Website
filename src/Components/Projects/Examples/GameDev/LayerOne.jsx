@@ -6,7 +6,7 @@ const LayerOne = () => {
             <h1>Game development projects</h1>
             <p className="game-dev-paragraph">
                 I like playing games and I find that developing games
-                gives you more perspective on the the difficulty of game development.
+                gives you more perspective on the difficulty of game development.
                 I make games as more of a hobby because I find other fields like 
                 ML, AI, Web development and mobile development more interesting.
             </p>

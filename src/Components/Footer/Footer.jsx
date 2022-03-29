@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
         <footer className="footer-content">
             <h4>Site made by Nathan Lapak</h4>
-            <p>Made with React, React-router and Boostrap</p>
+            <p>Contact me on Github or by email - nathan.lapak@gmail.com</p>
         </footer>
     </div>
     )
