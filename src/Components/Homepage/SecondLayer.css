@@ -1,19 +1,25 @@
-.aboutMe {
-    background-color: #3b82f6;
-    padding-bottom: 20%;
+.projects-examples {
+    background-color: #ffffff;
+    padding-bottom: 15%;
     padding-top: 10%;
     height: auto;  
 }
 
-.aboutMe-header{
+.projects-examples-header{
+    font-family: 'Times New Roman', Times, serif;
     padding: 1%;
-    color: white;
-    font-size: 100px;
+    color: black;
+    font-size: 65px;
     text-align: center;
+    margin-bottom: 3%;
 }
-.aboutMe-paragraph {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin: 2%;
+
+.earSketch {
+    background-color: #E4E2E2;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.test {
+    float: right;
 }

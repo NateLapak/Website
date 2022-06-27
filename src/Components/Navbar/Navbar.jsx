@@ -7,20 +7,34 @@ const NavbarMain = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                 <NavLink to="/homepage" style={{textDecoration: "none"}}>
-                    <Navbar.Brand>Home</Navbar.Brand>
+                    <Navbar.Brand>Nathan Lapak</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="ms-auto">
                     
-                    <NavLink to="/education" style={{textDecoration: "none"}}>
+                    {/* <NavLink to="/education" style={{textDecoration: "none"}}>
                         <Nav.Link href="#Education">Education</Nav.Link>
+                    </NavLink> */}
+
+                    <NavLink to="/AboutMe" style={{textDecoration: "none"}}>
+                        <Nav.Link href="#AboutMe">About</Nav.Link>
+                    </NavLink>
+
+                    <NavLink to="/contact" style={{textDecoration: "none"}}>
+                        <Nav.Link href="#Contact me">EarSketch</Nav.Link>
+                    </NavLink>
+
+                    <NavLink to="/contact" style={{textDecoration: "none"}}>
+                        <Nav.Link href="#Contact me">Projects</Nav.Link>
                     </NavLink>
                     
                     <NavLink to="/contact" style={{textDecoration: "none"}}>
                         <Nav.Link href="#Contact me">Contact</Nav.Link>
                     </NavLink>
-                    <NavDropdown title="Projects" id="collasible-nav-dropdown">
+
+
+                    {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
                         
                         <NavLink to="/projects" style={{textDecoration: "none"}}>
                             <NavDropdown.Item href="projects">Projects</NavDropdown.Item>  
@@ -48,7 +62,7 @@ const NavbarMain = () => {
                     
                     </NavDropdown>
                     </Nav>
-                    <Nav>
+                    <Nav> */}
 
                     </Nav>
                 </Navbar.Collapse>

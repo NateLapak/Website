@@ -1,16 +1,44 @@
 .first-layer {
     background-color: #E4E2E2;
-    padding: 18%;
+    padding: 3%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .profile-text {
-    font-size: 100px;
+    margin-top: 3%;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    float: left;
+    height: 400px;
+    width: 35%;
+    margin: 5%;
+}
+
+.about-me {
+    padding: 2%
+
+}
+
+.about-me p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    margin: 2%;
 }
 
 .images {
+    margin: 2%;
     padding: 2%;
 }
+
+.images img {
+    padding: 0.5%
+}
+

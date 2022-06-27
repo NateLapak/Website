@@ -16,11 +16,12 @@ const FirstLayer = () => {
                     Github
                 </a>
             </Button>
-            {/* <Button className="contact-button" variant="primary">
+            
+            <Button className="contact-button" variant="primary">
                 <a href="https://ca.linkedin.com/in/nathan-lapak-a88b2118a" className="linkedin">
                     Linkedin
                 </a>
-            </Button> */}
+            </Button>
 
             <Button className="contact-button" variant="primary">
                 <a className="email" onClick={onEmailHandler}>
