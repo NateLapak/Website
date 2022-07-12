@@ -12,12 +12,12 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 const FirstLayer = () => {
     return (
         <div className="first-layer">
-            <div>
-                <img className="profile-pic" src={ProfilePic} ></img>
+            <div className="container col-md-10 col-sm-8">
+                <img className="profile-pic" src={ProfilePic} alt="" ></img>
                 <h1 className="profile-text"><b>I'm Nathan Lapak</b></h1>
                 
                     <IconContext.Provider value={{ className: "shared-class", size: 40 }}>
-                        <a href="https://github.com/NateLapak"><AiFillGithub/></a>
+                        <a href="https://github.com/NateLapak"><AiFillGithub href="https://github.com/NateLapak"/></a>
                         <a href="https://www.linkedin.com/in/nathan-lapak-a88b2118a/"><AiFillLinkedin /></a>
                     </IconContext.Provider>
 

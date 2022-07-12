@@ -1,0 +1,14 @@
+.second-layer {
+    background-color: #ffffff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: auto;  
+}
+
+.second-layer h1, p, ul {
+    text-align: center;
+}
+
+.second-layer p {
+    font-size: 20px;
+}

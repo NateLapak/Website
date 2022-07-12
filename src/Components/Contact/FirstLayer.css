@@ -1,32 +1,16 @@
-.contact {
-    background-color: #E4E2E2;
-    padding: 21%;
+.FirstLayer {
+    padding: 4%;
     text-align: center;
 }
 
-.contact-head {
-    font-size: 55px;
+.FirstLayer h1, h3 {
+    margin: 4%;
 }
 
-.contact-button {
-    width: 25%;
-    height: 20%;
-    margin: 2%;
+.FirstLayer-form {
+    margin: 5%;
 }
 
-.linkedin, .github, .email {
-    color: white;
-    text-decoration: none;
-}
-
-.linkedin {
-    font-size: 14px;
-}
-
-.github {
-    font-size: 18px;
-}
-
-.email {
-    font-size: 20px
+.FirstLayer-button {
+    margin: 4%;
 }

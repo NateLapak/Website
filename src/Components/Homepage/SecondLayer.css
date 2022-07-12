@@ -1,25 +1,14 @@
-.projects-examples {
+.ML {
     background-color: #ffffff;
-    padding-bottom: 15%;
-    padding-top: 10%;
+    padding-bottom: 3%;
+    padding-top: 5%;
     height: auto;  
+    text-align: center;
 }
 
-.projects-examples-header{
+.ML h1{
     font-family: 'Times New Roman', Times, serif;
     padding: 1%;
     color: black;
     font-size: 65px;
-    text-align: center;
-    margin-bottom: 3%;
-}
-
-.earSketch {
-    background-color: #E4E2E2;
-    margin-left: 10%;
-    margin-top: 3%;
-}
-
-.test {
-    float: right;
 }

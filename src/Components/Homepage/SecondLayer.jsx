@@ -1,39 +1,29 @@
 import "./SecondLayer.css"
-import Card from 'react-bootstrap/Card'
+import ML from "../../Images/HomepageImages/ML.jpg"
+import Kaggle from "../../Images/HomepageImages/Kaggle.png"
 import Button from 'react-bootstrap/Button'
-import earsketch from "../../Images/HomepageImages/earsketch.png"
-import MernStack from "../../Images/HomepageImages/MernStack.jpg"
-
 
 const SecondLayer = () => {
     return (
-        <div className="projects-examples">
-            <h1 className="projects-examples-header">
-                Check out a few of my projects!
-            </h1>
+        <div className="ML">
+            <div className="container col-md-8 col-sm-6">
+                <h1>What I'm currently doing</h1>
 
-            <Card bg="light" border="dark" style={{ width: '18rem', float: "left", marginLeft: "20%", marginRight: "20%" }}>
-            <Card.Img variant="top" src={earsketch} />
-            <Card.Body>
-                <Card.Title>Earsketch</Card.Title>
-                <Card.Text>
-                Runner-up of the Amazon Future Enginner Earsketch competition in Canada!
-                </Card.Text>
-                <Button variant="primary">Earsketch section</Button>
-            </Card.Body>
-            </Card>
+                <h2>Machine Learning on Kaggle</h2>
+                <img className="w-50 p-5" src={ML} alt=""></img>
+                <img className="w-50 p-5 " src={Kaggle} alt=""></img>
 
-            <Card bg="light" border="dark" style={{ width: '18rem'}}>
-            <Card.Img variant="top" src={MernStack}/>
-            <Card.Body>
-                <Card.Title>MERN stack website</Card.Title>
-                <Card.Text>
-                This website was made using the MERN tech stack. Check out it's github repository
-                below!
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/NateLapak/Website"> Website repository</Button>
-            </Card.Body>
-            </Card>
+                <h3>What is Machine Learning and Kaggle?</h3>
+                <p>
+                    Machine Learning aims to build a model that learns from a dataset to make 
+                    predictions or descisions without having to be told explictely through 
+                    a program. Kaggle is a popular online community of data scientists and
+                    machine learners. They have courses for all skill levels, competitions and 
+                    datasets to be used in ML projects.
+                </p>
+
+                <Button href="https://www.kaggle.com/nathanlapak" variant="dark">Kaggle profile</Button>
+            </div>
 
         </div>
     )

@@ -13,17 +13,16 @@ const NavbarMain = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                     
-
                     <NavLink to="/AboutMe" style={{textDecoration: "none"}}>
                         <Nav.Link href="#AboutMe">About</Nav.Link>
                     </NavLink>
 
-                    <NavLink to="/contact" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#Contact me">Projects</Nav.Link>
+                    <NavLink to="/Projects" style={{textDecoration: "none"}}>
+                        <Nav.Link href="#Projects">Projects</Nav.Link>
                     </NavLink>
                     
                     <NavLink to="/contact" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#Contact me">Contact</Nav.Link>
+                        <Nav.Link href="#Contact">Contact</Nav.Link>
                     </NavLink>
 
                     </Nav>
