@@ -1,8 +1,4 @@
 # Personal website
-
-<div align="center">
- <img src="Homepage.png" alt ="" height="250px" width="500px"/>
-</div>
  
 <br>
 Welcome to my personal website github repository!
