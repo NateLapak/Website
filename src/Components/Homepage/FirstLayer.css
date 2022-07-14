@@ -1,3 +1,4 @@
+/* First layer of the homepage */
 .first-layer {
     background-color: #E4E2E2;
     padding: 3%;
@@ -7,13 +8,14 @@
     align-items: center;
 }
 
-
+/* Styling the for the profile paragraph and heading */
 .profile-text {
     margin-top: 3%;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Styling for the profile picture */
 .profile-pic {
     border-radius: 50%;
     float: left;
@@ -22,22 +24,42 @@
     margin: 5%;
 }
 
+/* Styling for profile pictures in smaller devices */
+@media (max-width: 885px) {
+    .profile-pic {
+        height: 200px;
+        width: 200px;
+    }
+
+    .profile-text {
+        margin-top: 1.5%;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+
+}
+
+/* About me section (paragraph) */
 .about-me {
     padding: 2%
 
 }
 
+/* Change styling for paragraph */
 .about-me p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
     margin: 2%;
 }
 
+/* Technology images */
 .images {
     margin: 2%;
     padding: 2%;
 }
 
+/* Padding between images */
 .images img {
     padding: 0.5%
 }

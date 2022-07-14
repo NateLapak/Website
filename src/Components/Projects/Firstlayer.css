@@ -1,3 +1,4 @@
+/* Earsketch general styling */
 .earsketch {
     padding: 3%;
     text-align: center;
@@ -5,10 +6,12 @@
     background-color: #ffffff;
 }
 
+/* Earsketch paragraph */
 .earsketch p {
     font-size: 19px;
 }
 
+/* Margin for audio file */
 .earsketch-audio {
     margin: 3%;
 }

@@ -1,16 +1,20 @@
+/* First layer of contact page */
 .FirstLayer {
     padding: 4%;
     text-align: center;
 }
 
+/* Change margin of h1 and h3 */
 .FirstLayer h1, h3 {
     margin: 4%;
 }
 
+/* Change margin of the form */
 .FirstLayer-form {
     margin: 5%;
 }
 
+/* Change margin of the button */
 .FirstLayer-button {
     margin: 4%;
 }

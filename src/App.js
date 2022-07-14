@@ -11,12 +11,18 @@ import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
+
     <div>
+
+      {/* Navbar */}
       <header>
         <NavbarMain /> 
       </header>
 
+      {/* Main section */}
       <main>
+
+        {/* React-router that renders all different pages */}
         <Routes>
           <Route path="" element={<Navigate replace to="homepage" />} />
           <Route path="*" element={<Navigate to="/" />} />
@@ -28,10 +34,12 @@ function App() {
 
         </Routes>
       </main>
-
+      
+      {/* Footer */}
       <footer>
         <Footer />
       </footer>
+
     </div>
   );
 }

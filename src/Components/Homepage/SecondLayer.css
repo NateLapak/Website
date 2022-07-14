@@ -1,3 +1,4 @@
+/* Second layer of homepage */
 .ML {
     background-color: #ffffff;
     padding-bottom: 3%;
@@ -6,6 +7,7 @@
     text-align: center;
 }
 
+/* Heading for the second layer of the homepage */
 .ML h1{
     font-family: 'Times New Roman', Times, serif;
     padding: 1%;

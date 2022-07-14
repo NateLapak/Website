@@ -4,12 +4,18 @@ import { NavLink} from "react-router-dom";
 const NavbarMain = () => {
     return (
         <div>
+
+            {/* General navbar components */}
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
+
+                {/* Full name and Brand */}
                 <NavLink to="/homepage" style={{textDecoration: "none"}}>
                     <Navbar.Brand>Nathan Lapak</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+                {/* Sub-sections of websites */}
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                     

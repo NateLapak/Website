@@ -12,15 +12,21 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 const FirstLayer = () => {
     return (
         <div className="first-layer">
-            <div className="container col-md-10 col-sm-8">
+
+            {/* Homepage and introduction section */}
+            <div className="container col-lg-10 col-md-10 col-sm-8 col-xs-6">
+
+                {/* Profile picture and heading */}
                 <img className="profile-pic" src={ProfilePic} alt="" ></img>
-                <h1 className="profile-text"><b>I'm Nathan Lapak</b></h1>
-                
+                <h1 className="profile-text">My name is <b>Nathan Lapak</b></h1>
+
+                {/* Github and Linkedin icons */}
                     <IconContext.Provider value={{ className: "shared-class", size: 40 }}>
                         <a href="https://github.com/NateLapak"><AiFillGithub href="https://github.com/NateLapak"/></a>
                         <a href="https://www.linkedin.com/in/nathan-lapak-a88b2118a/"><AiFillLinkedin /></a>
                     </IconContext.Provider>
 
+                {/* Short description about myself */}
                 <div className="about-me">
 
                     <p>I've been programming since I was 15 years old and since then I have grown to
@@ -36,6 +42,8 @@ const FirstLayer = () => {
                     </p>
                 </div>
 
+
+                {/* Images of technologies including Python, JS, etc */}
                 <div className="images">
                     <img src={ReactLogo} height="10%" width="11%" alt=""></img>
                     <img src={PythonLogo} height="10%" width="10%" alt=""></img> 

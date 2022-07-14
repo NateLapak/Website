@@ -11,7 +11,9 @@ import Button from 'react-bootstrap/Button'
 const FirstLayer = () => {
     return (
         <div className="earsketch">
-            <div className="container col-md-10 col-sm-4">
+
+            {/* Earsketch section */}
+            <div className="container col-lg-10 col-md-10 col-sm-4">
                 
                 <h1>Earsketch <ImMusic /></h1>
                 <h3><i>Music created through code</i></h3>
@@ -41,6 +43,7 @@ const FirstLayer = () => {
                     </audio>
                 </div>
 
+                {/* Buttons that link to earsketch's websites */}
                 <Button className="m-3" href="https://earsketch.gatech.edu/landing/#/">Earsketch Website</Button>
                 <Button className="m-3" href="https://www.amazonfutureengineer.com/yourvoiceispower">Earsketch Competition</Button>
             </div>

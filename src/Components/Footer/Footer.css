@@ -1,9 +1,11 @@
+/* General styling for the footer */
 .footer {
     background: #272727;
     padding: 2%;
     color: white;
 }
 
+/* Align all content in footer to the center */
 .footer-content {
     text-align: center;
 }

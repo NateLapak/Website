@@ -1,3 +1,4 @@
+/* Second layer of the about me page */
 .second-layer {
     background-color: #ffffff;
     padding-top: 10%;
@@ -5,10 +6,12 @@
     height: auto;  
 }
 
+/* Align the heading, paragraph the the ul */
 .second-layer h1, p, ul {
     text-align: center;
 }
 
+/* Change paragraph size to 20px */
 .second-layer p {
     font-size: 20px;
 }

@@ -1,3 +1,4 @@
+/* First layer of the about me page */
 .firstLayer {
     background-color: #E4E2E2;
     padding: 3%;
@@ -5,10 +6,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Images of the first layer of the about me page */
 .firstLayer img {
     margin: 5%;
 }
 
+/* Paragraph of the first layer of the about me page */
 .firstLayer p {
     font-size: 30px;
 }
