@@ -1,10 +1,4 @@
 # Personal website
-
-<div align="center">
- <img src="Homepage.png" alt ="" height="250px" width="500px"/>
-</div>
- 
-<br>
 Welcome to my personal website github repository!
 This repository contains all files associated with this react website published onto github pages. 
 All files but this one is contained in the master branch of this repository.
