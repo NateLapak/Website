@@ -29,7 +29,7 @@ const FirstLayer = () => {
                     Earsketch is an educational programming environment used to teach students
                     code through composing and remixing music. The song I composed was for a competition
                     sponsored by Amazon where students from Canada create a song which will be judged by
-                    musicians, computer scientists, etc. My song ended up taking runner-up for the competition
+                    musicians, computer scientists, etc. My song ended up taking <a href="https://amazonfutureengineer.ca/your-voice-is-power-fall-2021-winners-announced/">runner-up</a> for the competition
                     and I won a 250$ amazon gift card.
                     To learn more about the competition,
                     click the button below. 

@@ -7,7 +7,7 @@ import BootLogo from "../../Images/HomepageImages/Boot.png"
 import ProfilePic from "../../Images/HomepageImages/ProfilePic.jpg"
 
 import { IconContext } from "react-icons/lib"
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 
 const FirstLayer = () => {
     return (
@@ -24,6 +24,7 @@ const FirstLayer = () => {
                     <IconContext.Provider value={{ className: "shared-class", size: 40 }}>
                         <a href="https://github.com/NateLapak"><AiFillGithub href="https://github.com/NateLapak"/></a>
                         <a href="https://www.linkedin.com/in/nathan-lapak-a88b2118a/"><AiFillLinkedin /></a>
+                        <a href="https://www.youtube.com/channel/UCQQ9XEedPA9nL2Z0bxpV9qw"><AiFillYoutube /></a>
                     </IconContext.Provider>
 
                 {/* Short description about myself */}
@@ -37,8 +38,9 @@ const FirstLayer = () => {
 
                     
                     <p>
-                        I will be starting a Bachelor of Science (BSc) at Macewan University in Alberta. I plan to transfer to 
-                        the University of Alberta later on unless I decide that Macewan University is worth staying at.
+                        Aside from programming, I also enjoy playing music like piano and guitar. Although I mostly 
+                        play classical music, I would like to play rock music and possibly start
+                        composing my own songs like what I did with earsketch.
                     </p>
                 </div>
 

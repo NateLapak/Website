@@ -4,6 +4,7 @@ import {GoLocation} from "react-icons/go"
 import {RiComputerLine} from "react-icons/ri"
 import {IoShareSocialSharp} from "react-icons/io5"
 import {BsLinkedin, BsGithub} from "react-icons/bs"
+import {AiFillYoutube } from 'react-icons/ai';
 
 const Secondlayer = () => {
     return (
@@ -36,6 +37,8 @@ const Secondlayer = () => {
                     Github <a href="https://github.com/NateLapak">< BsGithub /></a>
                     <br />
                     Linkedin <a href="https://www.linkedin.com/in/nathan-lapak-a88b2118a/"><BsLinkedin /></a>
+                    <br />
+                    Youtube <a href="https://www.youtube.com/channel/UCQQ9XEedPA9nL2Z0bxpV9qw"><AiFillYoutube /></a>
                 </p>
             </div>
         </div>
