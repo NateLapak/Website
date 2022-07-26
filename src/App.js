@@ -25,7 +25,7 @@ function App() {
         {/* React-router that renders all different pages */}
         <Routes>
           <Route path="" element={<Navigate replace to="homepage" />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate replace to="homepage" />} />
 
           <Route path="/homepage" element={<Homepage />} /> 
           <Route path="/contact" element={<Contact />} />
