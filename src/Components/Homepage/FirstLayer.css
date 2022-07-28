@@ -1,5 +1,5 @@
-/* First layer of the homepage */
 .first-layer {
+    animation: showup 5s;
     background-color: #E4E2E2;
     padding: 3%;
     text-align: center;
@@ -15,6 +15,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.profile-title {
+    padding: 1%;
+}
+
+@keyframes showup {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
 /* Styling for the profile picture */
 .profile-pic {
     border-radius: 50%;
@@ -23,6 +34,7 @@
     width: 400px;
     margin: 5%;
 }
+
 
 /* Styling for profile pictures in smaller devices */
 @media (max-width: 885px) {
@@ -36,21 +48,18 @@
         font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
     }
-    
 
 }
 
 /* About me section (paragraph) */
 .about-me {
-    padding: 2%
-
+    padding: 3%
 }
 
 /* Change styling for paragraph */
 .about-me p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
-    margin: 2%;
 }
 
 /* Technology images */

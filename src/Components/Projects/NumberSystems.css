@@ -1,0 +1,15 @@
+.NumberSystems {
+    padding: 3%;
+    text-align: center;
+    font-style: 'Times New Roman', Times, serif;;
+    background-color: #ffffff;
+}
+
+.NumberSystems h4 {
+    padding: 2%;
+}
+
+.NumberSystems p {
+    text-align: center;
+    font-size: 19px;
+}

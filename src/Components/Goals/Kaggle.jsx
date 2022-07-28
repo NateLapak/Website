@@ -1,9 +1,9 @@
-import "./SecondLayer.css"
+import "./Kaggle.css"
 import ML from "../../Images/HomepageImages/ML.jpg"
-import Kaggle from "../../Images/HomepageImages/Kaggle.png"
+import KaggleImg from "../../Images/HomepageImages/Kaggle.png"
 import Button from 'react-bootstrap/Button'
 
-const SecondLayer = () => {
+const Kaggle = () => {
     return (
 
         <div className="ML">
@@ -17,7 +17,7 @@ const SecondLayer = () => {
                 {/* Subheading for machine learning */}
                 <h2>Machine Learning on Kaggle</h2>
                 <img className="w-50 p-5" src={ML} alt=""></img>
-                <img className="w-50 p-5 " src={Kaggle} alt=""></img>
+                <img className="w-50 p-5 " src={KaggleImg} alt=""></img>
 
                 {/* Brief description about machine learning */}
                 <div>
@@ -39,4 +39,4 @@ const SecondLayer = () => {
     )
 }
 
-export default SecondLayer;
+export default Kaggle;

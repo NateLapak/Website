@@ -1,11 +1,13 @@
 import FirstLayer from "../Components/Homepage/FirstLayer"
-import SecondLayer from "../Components/Homepage/SecondLayer"    
+import Earsketch from "../Components/Projects/Earsketch"
+import NumberSystems from "../Components/Projects/NumberSystems"
 
 const Homepage = () => {
     return (
         <div>
             <FirstLayer></FirstLayer>
-            <SecondLayer></SecondLayer>
+            <Earsketch></Earsketch>
+            <NumberSystems />
         </div>
     )
 }

@@ -24,7 +24,7 @@ const NavbarMain = () => {
                     </NavLink>
 
                     <NavLink to="/Projects" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#Projects">Projects</Nav.Link>
+                        <Nav.Link href="#Projects">Goals</Nav.Link>
                     </NavLink>
                     
                     <NavLink to="/contact" style={{textDecoration: "none"}}>

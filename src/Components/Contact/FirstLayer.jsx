@@ -1,4 +1,4 @@
-import "./FirstLayer.css"
+import "./Contact.css"
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import {AiOutlineMail} from "react-icons/ai"

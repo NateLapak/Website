@@ -17,7 +17,6 @@ const Footer = () => {
             <IconContext.Provider value={{ className: "shared-class", size: 40 }}>
                         <a href="https://github.com/NateLapak"><AiFillGithub/></a>
                         <a href="https://www.linkedin.com/in/nathan-lapak-a88b2118a/"><AiFillLinkedin /></a>
-                        <a href="https://www.youtube.com/channel/UCQQ9XEedPA9nL2Z0bxpV9qw"><AiFillYoutube /></a>
             </IconContext.Provider>
 
             {/* Copyright */}

@@ -1,9 +1,9 @@
-import FirstLayer from "../Components/Projects/FirstLayer";
+import Kaggle from "../Components/Goals/Kaggle"
 
 const Projects = () => {
     return (
         <div>
-            <FirstLayer />
+            <Kaggle />
         </div>
     )
 }

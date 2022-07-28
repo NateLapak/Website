@@ -1,9 +1,21 @@
+.showcase {
+    animation: showup 5s;
+    padding: 2%;
+    text-align: center;
+}
+
 /* Earsketch general styling */
 .earsketch {
     padding: 3%;
     text-align: center;
     font-style: 'Times New Roman', Times, serif;;
     background-color: #ffffff;
+}
+
+/* Earsketch header */
+.header {
+    padding: 2%;
+    border: black solid 1px;
 }
 
 /* Earsketch paragraph */
