@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.55686679.css",
-    "main.js": "/static/js/main.bb00b751.js",
+    "main.css": "/static/css/main.803613f1.css",
+    "main.js": "/static/js/main.54b08418.js",
     "static/media/EarsketchSong.mp3": "/static/media/EarsketchSong.250c7e5cf3d50638d424.mp3",
     "static/media/EarSketch.png": "/static/media/EarSketch.0b49e0ab02fc925620b8.png",
-    "static/media/ProfilePic.jpg": "/static/media/ProfilePic.1f8edc6f7baa5753f491.jpg",
     "static/media/EarSketch-code.png": "/static/media/EarSketch-code.640237c740be83e02a18.png",
+    "static/media/Number.png": "/static/media/Number.4c6c5cb0a6a41decc8e4.png",
     "static/media/Logo.png": "/static/media/Logo.90f0ce8877bb81a09a0f.png",
     "static/media/React.png": "/static/media/React.73ac128ace7cbddf3d39.png",
+    "static/media/Seaborn.jpg": "/static/media/Seaborn.68b552ef9e46b4916dbb.jpg",
+    "static/media/NumberSysCode.png": "/static/media/NumberSysCode.e7b26f5457df59446251.png",
+    "static/media/Java.jpg": "/static/media/Java.4757c6d12d4f0245d07c.jpg",
     "static/media/Kaggle.png": "/static/media/Kaggle.39ba60834cd5e367e9d8.png",
     "static/media/Python.png": "/static/media/Python.f1a07429fcf04073a41e.png",
     "static/media/JS.webp": "/static/media/JS.2888c0a080c1a9d407b0.webp",
     "index.html": "/index.html",
-    "main.55686679.css.map": "/static/css/main.55686679.css.map",
-    "main.bb00b751.js.map": "/static/js/main.bb00b751.js.map"
+    "main.803613f1.css.map": "/static/css/main.803613f1.css.map",
+    "main.54b08418.js.map": "/static/js/main.54b08418.js.map"
   },
   "entrypoints": [
-    "static/css/main.55686679.css",
-    "static/js/main.bb00b751.js"
+    "static/css/main.803613f1.css",
+    "static/js/main.54b08418.js"
   ]
 }
