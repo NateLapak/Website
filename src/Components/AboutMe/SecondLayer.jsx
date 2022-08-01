@@ -12,9 +12,9 @@ const Secondlayer = () => {
             <h1>Personal information</h1>
 
             {/* Location section with heading and paragraph */}
-            <div>
+            <div className="location">
 
-                <h1>Location <GoLocation /></h1>
+                <h2>Location <GoLocation /></h2>
                 <p>
                     I am a develeoper based in Edmonton, Canada. I've been here my entire life
                     and I will get my bachelor degree here as well. 
@@ -22,8 +22,8 @@ const Secondlayer = () => {
             </div>
 
             {/* Goals section with heading and paragraph */}
-            <div>
-                <h1>Goals <RiComputerLine /></h1>
+            <div className="plans">
+                <h2>Plans <RiComputerLine /></h2>
                 <p>
                     After university, I plan to start my career in a related computer science field.
                     Cybersecurity and Big Data are fields that interest me the most and I dream of working in.
@@ -31,8 +31,8 @@ const Secondlayer = () => {
             </div>
 
             {/* Social media section with heading and links to github and Linkedin */}
-            <div>
-                <h1>Social Media <IoShareSocialSharp /></h1>
+            <div className="media">
+                <h2>Social Media <IoShareSocialSharp /></h2>
                 <p>
                     Contact me on social media!
                     <br />

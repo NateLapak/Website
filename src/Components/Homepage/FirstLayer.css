@@ -37,7 +37,7 @@
 
 
 /* Styling for profile pictures in smaller devices */
-@media (max-width: 885px) {
+@media (max-width: 900px) {
     .profile-pic {
         height: 200px;
         width: 200px;
@@ -51,6 +51,24 @@
 
 }
 
+/* Styling for phones */
+@media (max-width: 650px) {
+    
+    .profile-pic {
+        height: 150px;
+        width: 150px;
+    }
+
+    .profile-text {
+        margin-top: 1.5%;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .images {
+        size: 200px;
+    }
+}
 /* About me section (paragraph) */
 .about-me {
     padding: 3%

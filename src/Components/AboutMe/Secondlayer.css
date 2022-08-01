@@ -14,3 +14,7 @@
 .second-layer p {
     font-size: 20px;
 }
+
+.location, .plans, .media {
+    padding: 2%;
+}

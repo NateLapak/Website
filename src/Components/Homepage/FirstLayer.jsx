@@ -12,7 +12,8 @@ import { IconContext } from "react-icons/lib"
 import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 
 const FirstLayer = () => {
-    
+
+
     return (
         <div className="first-layer">
 
@@ -45,11 +46,11 @@ const FirstLayer = () => {
 
                 {/* Images of technologies including Python, JS, etc */}
                 <div className="images">
-                    <img src={ReactLogo} height="10%" width="11%" alt=""></img>
-                    <img src={PythonLogo} height="10%" width="10%" alt=""></img> 
-                    <img src={BootLogo} height="10%" width="10%" alt=""></img>
-                    <img src={JSLogo} height="10%" width="10%" alt=""></img>
-                    <img src={Seaborn} height="10%" width="10%" alt=""></img>
+                    <img src={ReactLogo} height={100} width={100} alt=""></img>
+                    <img src={PythonLogo} height={100} width={100} alt=""></img> 
+                    <img src={BootLogo} height={100} width={100} alt=""></img>
+                    <img src={JSLogo} height={100} width={100} alt=""></img>
+                    <img src={Seaborn} height={100} width={100} alt=""></img>
                 </div> 
 
             </div>
