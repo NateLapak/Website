@@ -1,3 +1,4 @@
+/* Number systems project main styling */
 .NumberSystems {
     padding: 3%;
     text-align: center;
@@ -5,10 +6,12 @@
     background-color: #ffffff;
 }
 
+/* Add padding */
 .NumberSystems h4 {
     padding: 2%;
 }
 
+/* Change size and center paragraphs */
 .NumberSystems p {
     text-align: center;
     font-size: 19px;

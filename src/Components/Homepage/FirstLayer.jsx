@@ -6,7 +6,6 @@ import PythonLogo from "../../Images/HomepageImages/Python.png"
 import BootLogo from "../../Images/HomepageImages/Boot.png"
 // import ProfilePic from "../../Images/HomepageImages/ProfilePic.jpg"
 import ProfilePic from "../../Images/AboutMeImages/Logo.png"
-import Firebase from "../../Images/HomepageImages/Firebase.png"
 
 import { IconContext } from "react-icons/lib"
 import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
@@ -25,7 +24,7 @@ const FirstLayer = () => {
 
                 <div className="container-fluid">
                     <h1 className="profile-text">My name is <b>Nathan Lapak</b></h1>
-                    <h4 className="profile-title">Web Development and Designing</h4>
+                    <h4 className="profile-title">Front-End development and Web Design</h4>
                 </div>
 
                 {/* Github and Linkedin icons */}
@@ -50,7 +49,6 @@ const FirstLayer = () => {
                     <img src={PythonLogo} height={100} width={100} alt=""></img> 
                     <img src={BootLogo} height={100} width={100} alt=""></img>
                     <img src={JSLogo} height={100} width={100} alt=""></img>
-                    <img src={Firebase} height={100} width={100} alt=""></img>
                 </div> 
 
             </div>

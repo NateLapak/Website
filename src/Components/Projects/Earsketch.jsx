@@ -33,6 +33,7 @@ const Earsketch = () => {
                 {/* Earsketch section */}
                 <div>
 
+                    {/* Text for project 1 header */}
                     <div className='header'>
                         <h1>Project 1: Earsketch <ImMusic /></h1>
                         <Button onClick={() => setOpen(!open)} aria-controls="example-collapse-text" aria-expanded={open}>
@@ -40,6 +41,7 @@ const Earsketch = () => {
                         </Button>
                     </div>
 
+                    {/* Controls the collapse animation for the button */}
                     <Collapse in={open}>
                         <div id="example-collapse-text">
                             <h3><i>"Music created through code"</i></h3>

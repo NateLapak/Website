@@ -1,68 +1,60 @@
 import "./Contact.css"
-import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import {AiOutlineMail} from "react-icons/ai"
-import { useState } from "react"
-
+import React, { useRef } from "react"
+import emailjs from '@emailjs/browser';
 
 const FirstLayer = () => {
 
-    // State to handle the first input (name or email address)
-    const [Labelstate, LabelsetState] = useState("")
+    // Ref react component to use for the contact form
+    const form = useRef();
 
-    // State to handle the message (textarea)
-    const [MessageState, setMessageState] = useState("")
-
-    // Handle and update the state of the name/email input
-    const handleLabelChange = (event) => {
-        LabelsetState(event.target.value)
-    }
-
-    // Handle and update the state of the message input
-    const handleMessageChange = (event) => {
-        setMessageState(event.target.value)
-    }   
-
-    // Handle when the area has been submitted
-    const handleSubmit = (event) => {
-        LabelsetState(Labelstate)
-        setMessageState(MessageState)
-        alert("Thanks for the message!")
-    }
-
+    // EmailJs function that sends contact information straight to my email
+    const sendEmail = (e) => {
+      e.preventDefault();
+      emailjs.sendForm('service_skonrz5', 'template_ffguqyy', form.current, '6KZMCg9C8JjNcQe97', {
+      }) .then((result) => {
+            alert("Thanks for the message!")
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
+  
     return (
         <div className="container FirstLayer col-lg-10 col-md-8 col-sm-6">
 
             {/* Heading for contact page */}
             <h1>Contact or message me directly.</h1>
 
-            {/* Form for contact page. */}
-            <Form className="FirstLayer-form">
+            {/* Contact form */}
+            <form ref={form} onSubmit={sendEmail}>
+                
+                {/* Name Field */}
+                <div class="form-group formName">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input name="user_name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name"/>
+                </div>
 
-            {/* Form and input area for name or email address */}
-            <Form.Group className="mb-3" controlId="ControlInput1">
-                <Form.Label>Email address or name</Form.Label>
-                <Form.Control
-                    onChange={handleLabelChange}
-                    value={Labelstate}
-                    type="email" 
-                    placeholder="name or email address" 
-                    />
-            </Form.Group>
+                {/* Email Field */}
+                <div class="form-group formEmail">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input name="user_email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+                </div>
 
-            {/* Form and input area for the textarea and message */}
-            <Form.Group className="mb-3" controlId="ControlTextarea1">
-                <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} value={MessageState} onChange={handleMessageChange} placeholder="Enter message here"/>
-            </Form.Group>
-            </Form>
+                {/* Message field */}
+                <div class="form-group formMessage">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Mesesage"></textarea>
+                </div>
 
-            {/* Button to submit information */}
-            <Button className="FirstLayer-button" variant="dark" onClick={handleSubmit}>Submit</Button>
+                {/* Submit button */}
+                <Button type="submit" variant="dark">Submit</Button>
+            </form>
 
             {/* Email */}
-            <h3>If you want to message me through email, email me nathan.lapak@gmail.com. <AiOutlineMail /> </h3>
-            <h3>Thanks for reaching out</h3>
+            <h3>My email is <b>nathan.lapak@gmail.com</b> </h3>
+            <h3>Thanks for reaching out!</h3>
         </div>
     )
 }

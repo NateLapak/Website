@@ -9,6 +9,20 @@
     margin: 4%;
 }
 
+input {
+    margin: 0.5%;
+}
+
+label {
+    margin: 1.5%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formName, .formEmail, .formMessage {
+    padding: 2%;
+}
+
 /* Change margin of the form */
 .FirstLayer-form {
     margin: 5%;

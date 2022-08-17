@@ -16,8 +16,10 @@ const Kaggle = () => {
 
                 {/* Subheading for machine learning */}
                 <h2>Machine Learning on Kaggle</h2>
-                <img className="w-50 p-5" src={ML} alt=""></img>
-                <img className="w-50 p-5 " src={KaggleImg} alt=""></img>
+                <div className="kaggle">
+                    <img className="w-50 p-5" src={ML} alt=""></img>
+                    <img className="w-50 p-5 " src={KaggleImg} alt=""></img>
+                </div>
 
                 {/* Brief description about machine learning */}
                 <div>
