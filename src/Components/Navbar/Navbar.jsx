@@ -19,8 +19,8 @@ const NavbarMain = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                     
-                    <NavLink to="/AboutMe" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#AboutMe">About</Nav.Link>
+                    <NavLink to="/about" style={{textDecoration: "none"}}>
+                        <Nav.Link href="#about">About</Nav.Link>
                     </NavLink>
 
                     <NavLink to="/blog" style={{textDecoration: "none"}}>

@@ -1,0 +1,44 @@
+.django {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    height: auto;  
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.djangoImages {
+    margin: 2%;
+}
+
+.djangoImages img{
+    padding: 5%;
+    height: 300px;
+    width: 450px;
+}
+
+.djangoInfo {
+    font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+    .djangoImages img {
+        height: 200px;
+        width: 225px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .djangoImages img {
+        height: 200px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 650px) {
+    .djangoImages img {
+        height: 150px;
+        width: 175px;
+    }
+}

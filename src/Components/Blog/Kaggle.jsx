@@ -6,19 +6,22 @@ import Button from 'react-bootstrap/Button'
 const Kaggle = () => {
     return (
 
-        <div className="ML">
+        <div className="ML container">
 
             {/* Currently learnign section */}
-            <div className="container col-lg-10 col-md-8 col-sm-6">
+            <div>
 
                 {/* Heading */}
-                <h1>What I'm currently doing</h1>
+                <h1>Kaggle, Data Analysis and ML</h1>
+                <h4>August 8, 2022</h4>
+
+                <hr></hr>
 
                 {/* Subheading for machine learning */}
-                <h2>Machine Learning on Kaggle</h2>
+                <h2>Beginning to learn ML</h2>
                 <div className="kaggle">
-                    <img className="w-50 p-5" src={ML} alt=""></img>
-                    <img className="w-50 p-5 " src={KaggleImg} alt=""></img>
+                    <img src={ML} alt=""></img>
+                    <img src={KaggleImg} alt=""></img>
                 </div>
 
                 {/* Brief description about machine learning */}
@@ -30,6 +33,13 @@ const Kaggle = () => {
                         a program. Kaggle is a popular online community of data scientists and
                         machine learners. They have courses for all skill levels, competitions and 
                         datasets to be used in ML projects.
+                    </p>
+                    <h3>Why am I learning it?</h3>
+                    <p>
+                        I've considered becoming a data scientist once im done university and learning data analysis, 
+                        visualization and machine learning beforehand will help me in the future. I am also
+                        learning because it's fun to learn new skills and understand the emerging field of
+                        AI and ML. So far, it's quite challenging but it will be worth it in the long-term.
                     </p>
                 </div>
 

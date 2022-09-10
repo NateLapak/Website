@@ -1,0 +1,43 @@
+/* Second layer of homepage */
+.ML {
+    background-color: #ffffff;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+/* Heading for the second layer of the homepage */
+.ML h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
+    color: black;
+    font-size: 50px;
+}
+
+.kaggle img {
+    padding: 5%;
+    height: 350px;
+    width: 550px;
+}
+
+@media (max-width: 1315px) {
+    .kaggle img {
+        height: 300px;
+        width: 450px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .kaggle img {
+        height: 200px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 650px) {
+    .kaggle img {
+        height: 150px;
+        width: 225px;
+    }
+}
