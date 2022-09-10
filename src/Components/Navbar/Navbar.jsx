@@ -23,8 +23,8 @@ const NavbarMain = () => {
                         <Nav.Link href="#AboutMe">About</Nav.Link>
                     </NavLink>
 
-                    <NavLink to="/Projects" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#Projects">Goals</Nav.Link>
+                    <NavLink to="/blog" style={{textDecoration: "none"}}>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
                     </NavLink>
                     
                     <NavLink to="/contact" style={{textDecoration: "none"}}>
