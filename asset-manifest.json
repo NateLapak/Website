@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a45fd769.css",
-    "main.js": "/static/js/main.7893c570.js",
+    "main.css": "/static/css/main.1c261140.css",
+    "main.js": "/static/js/main.019324e2.js",
     "static/media/EarsketchSong.mp3": "/static/media/EarsketchSong.250c7e5cf3d50638d424.mp3",
     "static/media/EarSketch.png": "/static/media/EarSketch.0b49e0ab02fc925620b8.png",
     "static/media/EarSketch-code.png": "/static/media/EarSketch-code.640237c740be83e02a18.png",
@@ -9,6 +9,8 @@
     "static/media/ReactLogo.png": "/static/media/ReactLogo.73dbb5bcec516da82694.png",
     "static/media/Logo.png": "/static/media/Logo.90f0ce8877bb81a09a0f.png",
     "static/media/React.png": "/static/media/React.73ac128ace7cbddf3d39.png",
+    "static/media/Cyber.jpg": "/static/media/Cyber.f75a4f96318e79bd17b7.jpg",
+    "static/media/Hacking.jpg": "/static/media/Hacking.d438fa9a5765c580b92b.jpg",
     "static/media/NumberSysCode.png": "/static/media/NumberSysCode.e7b26f5457df59446251.png",
     "static/media/Java.jpg": "/static/media/Java.4757c6d12d4f0245d07c.jpg",
     "static/media/Kaggle.png": "/static/media/Kaggle.39ba60834cd5e367e9d8.png",
@@ -16,11 +18,11 @@
     "static/media/DjangoLogo.png": "/static/media/DjangoLogo.4c677b78d12c96ea7add.png",
     "static/media/JS.webp": "/static/media/JS.2888c0a080c1a9d407b0.webp",
     "index.html": "/index.html",
-    "main.a45fd769.css.map": "/static/css/main.a45fd769.css.map",
-    "main.7893c570.js.map": "/static/js/main.7893c570.js.map"
+    "main.1c261140.css.map": "/static/css/main.1c261140.css.map",
+    "main.019324e2.js.map": "/static/js/main.019324e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a45fd769.css",
-    "static/js/main.7893c570.js"
+    "static/css/main.1c261140.css",
+    "static/js/main.019324e2.js"
   ]
 }
