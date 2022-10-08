@@ -1,3 +1,4 @@
+/* Main styling */
 .django {
     text-align: center;
     padding-bottom: 3%;
@@ -7,6 +8,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Styling for images */
 .djangoImages {
     margin: 2%;
 }
@@ -21,6 +23,7 @@
     font-size: 16px;
 }
 
+/* Change size of images depending on screen size */
 @media (max-width: 1200px) {
     .djangoImages img {
         height: 200px;

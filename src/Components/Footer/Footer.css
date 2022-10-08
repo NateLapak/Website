@@ -9,3 +9,9 @@
 .footer-content {
     text-align: center;
 }
+
+.footer-content h4 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,3 +1,5 @@
+import "./Navbar.css"
+
 import {Navbar, Nav, Container} from "react-bootstrap"
 import { NavLink} from "react-router-dom";
 
@@ -11,7 +13,7 @@ const NavbarMain = () => {
 
                 {/* Full name and Brand */}
                 <NavLink to="/homepage" style={{textDecoration: "none"}}>
-                    <Navbar.Brand>Nathan Lapak</Navbar.Brand>
+                    <Navbar.Brand className="navbarHeader">Nathan Lapak</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -20,15 +22,15 @@ const NavbarMain = () => {
                     <Nav className="ms-auto">
                     
                     <NavLink to="/about" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#about" className="navbarLink">About</Nav.Link>
                     </NavLink>
 
                     <NavLink to="/blog" style={{textDecoration: "none"}}>
-                        <Nav.Link href="/blog">Blog</Nav.Link>
+                        <Nav.Link href="/blog" className="navbarLink">Blog</Nav.Link>
                     </NavLink>
                     
                     <NavLink to="/contact" style={{textDecoration: "none"}}>
-                        <Nav.Link href="#Contact">Contact</Nav.Link>
+                        <Nav.Link href="#Contact" className="navbarLink">Contact</Nav.Link>
                     </NavLink>
 
                     </Nav>

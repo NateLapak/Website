@@ -7,17 +7,21 @@ import ReactLogo from "../../Images/DjangoImages/ReactLogo.png"
 const Django = () => {
     return (
         <div className="django container">
+
+            {/* Header of section */}
             <h1>Django and Backend Development</h1>
             <h4>September 10, 2022</h4>
 
             <hr></hr>
 
+            {/* Images and sub-title */}
             <h2>Learning to combine Django and React</h2>
             <div className="djangoImages">
                 <img src={DjangoLogo} alt=""></img>
                 <img src={ReactLogo} alt=""></img>
             </div>
-
+            
+            {/* Description */}
             <div className="djangoInfo">
                 <h3>What is Django and Backend Development?</h3>
                 <p>

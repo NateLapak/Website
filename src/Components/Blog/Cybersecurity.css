@@ -1,0 +1,47 @@
+.Cybersecurity {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    height: auto;  
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling for images */
+.Cybersecurity-images {
+    margin: 2%;
+}
+
+.Cybersecurity-images img{
+    padding: 5%;
+    height: 400px;
+    width: 500px;
+}
+
+/* Change size of images depending on screen size */
+@media (max-width: 1250px) {
+    .Cybersecurity-images img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .Cybersecurity-images img {
+        height: 250px;
+        width: 275px;
+    }
+}
+
+@media (max-width: 770px) {
+    .Cybersecurity-images img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.CybersecurityInfo {
+    font-size: 16px;
+}
+
