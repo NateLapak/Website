@@ -24,7 +24,7 @@ const FirstLayer = () => {
 
                 <div className="container-fluid">
                     <h1 className="profile-text">My name is <b>Nathan Lapak</b></h1>
-                    <h4 className="profile-title">Front-End development and Web Design</h4>
+                    <h4 className="profile-title">Web development and Web design</h4>
                 </div>
 
                 {/* Github and Linkedin icons */}
