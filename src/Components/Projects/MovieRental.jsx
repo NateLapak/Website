@@ -6,6 +6,7 @@ import "./MovieRental.css"
 
 import NextLogo from "../../Images/MovieRentalAppImg/NextJSLogo.png"
 import tailwind from "../../Images/MovieRentalAppImg/tailwind.jpg"
+import TypeScript from "../../Images/MovieRentalAppImg/Typescript.png"
 
 import SampleCode from "../../Images/MovieRentalAppImg/Sample-movie-code.jpg"
 import Frontpage from "../../Images/MovieRentalAppImg/HomepageView.jpg"
@@ -31,9 +32,10 @@ const MovieRental = () => {
             {/* Actual content */}
             <Collapse in={open}>
                 <div className='NumberSystem-content'>
-                    <h2>"Rent your favorite movies online"</h2>
-                    <img src={NextLogo} className="w-50 p-5" alt=""></img>
+                    <h2 className='mt-5'>"Rent your favorite movies online"</h2>
+                    <img src={NextLogo} className="w-25 p-5" alt=""></img>
                     <img src={tailwind} className="w-50 p-5" alt=""></img>
+                    <img src={TypeScript} className="w-25 p-5" alt=""></img>
 
                     <h2>Example code and front page of the website</h2>
                     <img src= {SampleCode} className="w-50 p-5" alt=""></img>
