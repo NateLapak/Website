@@ -1,13 +1,13 @@
 import FirstLayer from "../Components/Homepage/FirstLayer"
-import Earsketch from "../Components/Projects/Earsketch"
-import NumberSystems from "../Components/Projects/NumberSystems"
+import HealthHackED from "../Components/Projects/HealthHackED"
+import MovieRental from "../Components/Projects/MovieRental" 
 
 const Homepage = () => {
     return (
         <div>
             <FirstLayer></FirstLayer>
-            <Earsketch></Earsketch>
-            <NumberSystems />
+            <HealthHackED></HealthHackED>
+            <MovieRental />
         </div>
     )
 }

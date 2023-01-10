@@ -4,8 +4,8 @@ import ReactLogo from "../../Images/HomepageImages/React.png"
 import JSLogo from "../../Images/HomepageImages/JS.webp"
 import PythonLogo from "../../Images/HomepageImages/Python.png"
 import BootLogo from "../../Images/HomepageImages/Boot.png"
-// import ProfilePic from "../../Images/HomepageImages/ProfilePic.jpg"
-import ProfilePic from "../../Images/AboutMeImages/Logo.png"
+
+import Profile from "../../Images/AboutMeImages/Profile.jpg"
 
 import { IconContext } from "react-icons/lib"
 import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
@@ -20,7 +20,7 @@ const FirstLayer = () => {
             <div className="container col-lg-10 col-md-10 col-sm-8 col-xs-6">
 
                 {/* Profile picture and heading */}
-                <img className="profile-pic" src={ProfilePic} alt="" ></img>
+                <img className="profile-pic" src={Profile} alt="" ></img>
 
                 <div className="container-fluid">
                     <h1 className="profile-text">My name is <b>Nathan Lapak</b></h1>
