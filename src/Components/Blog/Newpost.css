@@ -1,0 +1,47 @@
+/* Main styling */
+.newpost {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    height: auto;  
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling for images */
+.newpostimages {
+    margin: 2%;
+}
+
+.newpostimages img{
+    padding: 5%;
+    height: 300px;
+    width: 450px;
+}
+
+.newpostInfo {
+    font-size: 20px;
+}
+
+/* Change size of images depending on screen size */
+@media (max-width: 1200px) {
+    .newpostimages img {
+        height: 200px;
+        width: 225px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .newpostimages img {
+        height: 200px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 650px) {
+    .newpostimages img {
+        height: 150px;
+        width: 175px;
+    }
+}
