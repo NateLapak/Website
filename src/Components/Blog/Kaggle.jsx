@@ -1,6 +1,5 @@
 import "./Kaggle.css"
-import ML from "../../Images/HomepageImages/ML.jpg"
-import KaggleImg from "../../Images/HomepageImages/Kaggle.png"
+
 import Button from 'react-bootstrap/Button'
 
 const Kaggle = () => {
@@ -20,8 +19,8 @@ const Kaggle = () => {
                 {/* Subheading for machine learning */}
                 <h2>Beginning to learn ML</h2>
                 <div className="kaggle">
-                    <img src={ML} alt=""></img>
-                    <img src={KaggleImg} alt=""></img>
+                    <img src="" alt=""></img>
+                    <img src="" alt=""></img>
                 </div>
 
                 {/* Brief description about machine learning */}

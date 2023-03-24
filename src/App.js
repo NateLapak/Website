@@ -15,23 +15,19 @@ function App() {
 
     <div>
 
-      {/* Navbar */}
       <header>
         <NavbarMain /> 
       </header>
 
-      {/* Main section */}
       <main>
 
         {/* React-router that renders all different pages */}
         <Routes>
           <Route path="/*" element={<Navigate replace to="homepage" />} />
-          
           <Route path="/homepage" element={<Homepage />} /> 
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element ={<Blog />} />
-
         </Routes>
       </main>
       

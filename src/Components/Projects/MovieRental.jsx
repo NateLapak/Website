@@ -23,7 +23,7 @@ const MovieRental = () => {
 
             {/* Header */}
             <div className="header">
-                <h1>Project 2: Movie Rental <BiCameraMovie /></h1>
+                <h1>Project 3: Movie Rental <BiCameraMovie /></h1>
                 <Button onClick={() => setOpen(!open)} aria-controls="example-collapse-text" aria-expanded={open}>
                     Click to expand!
                 </Button>
