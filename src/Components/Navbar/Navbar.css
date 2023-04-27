@@ -3,6 +3,10 @@
     font-size: 22px;
 }
 
+.navbarHeader:hover, .navbarLink:hover {
+    background-color: rgba(225, 225, 225, 0.2)
+}
+
 .navbarLink {
     font-size: 20px
 }
