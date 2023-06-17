@@ -16,7 +16,8 @@ const FirstLayer = () => {
 
                 {/* Paragraph containing a short description of what I'm doing */}
                 <p>
-                    I am currently attending Macewan University for a bachelor of science degree
+                    I am currently pursuing a Bachelor of Science in 
+                    Computing Science at the University of Alberta. 
                 </p> 
 
             </div>

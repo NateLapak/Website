@@ -1,6 +1,5 @@
 .first-layer {
     animation: showup 5s;
-    background-color: #E4E2E2;
     padding: 3%;
     text-align: center;
     display: flex;
@@ -30,8 +29,8 @@
 .profile-pic {
     border-radius: 50%;
     float: left;
-    height: 400px;
-    width: 400px;
+    height: 420px;
+    width: 420px;
     margin: 5%;
 }
 
@@ -75,16 +74,5 @@
 .about-me p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
-}
-
-/* Technology images */
-.images {
-    margin: 2%;
-    padding: 2%;
-}
-
-/* Padding between images */
-.images img {
-    padding: 0.5%
 }
 

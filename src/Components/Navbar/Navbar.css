@@ -7,6 +7,10 @@
     background-color: rgba(225, 225, 225, 0.2)
 }
 
+.nav-link.active {
+    color: white;
+}
+
 .navbarLink {
     font-size: 20px
 }

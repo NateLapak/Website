@@ -1,0 +1,17 @@
+.technologies {
+    background-color: #E4E2E2;
+    padding: 2%;
+    text-align: center;
+    font-style: 'Times New Roman', Times, serif;;
+}
+
+/* Technology images */
+.images {
+    padding: 3%;
+}
+
+/* Padding between images */
+.images img {
+    padding: 1%;
+}
+

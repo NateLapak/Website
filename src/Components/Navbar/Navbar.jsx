@@ -23,15 +23,19 @@ const NavbarMain = () => {
     
                         <Nav className="ms-auto">
                             <NavLink to="/about" style={{textDecoration: "none"}}>
-                                <Nav.Link href="#about" className="navbarLink">About</Nav.Link>
+                                <Nav.Link href="#about" className="navbarLink active">About</Nav.Link>
                             </NavLink>
 
                             <NavLink to="/blog" style={{textDecoration: "none"}}>
-                                <Nav.Link href="#blog" className="navbarLink">Blog</Nav.Link>
+                                <Nav.Link href="#blog" className="navbarLink active">Blog</Nav.Link>
+                            </NavLink>
+
+                            <NavLink to="/resume" style={{textDecoration: "none"}}>
+                                <Nav.Link href="#resume" className="navbarLink active">Resume</Nav.Link>
                             </NavLink>
                             
                             <NavLink to="/contact" style={{textDecoration: "none"}}>
-                                <Nav.Link href="#contact" className="navbarLink">Contact</Nav.Link>
+                                <Nav.Link href="#contact" className="navbarLink active">Contact</Nav.Link>
                             </NavLink>
                         </Nav>
                     </Navbar.Collapse>
