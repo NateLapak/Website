@@ -29,10 +29,10 @@ const NavbarMain = () => {
                             <NavLink to="/blog" style={{textDecoration: "none"}}>
                                 <Nav.Link href="#blog" className="navbarLink active">Blog</Nav.Link>
                             </NavLink>
-
+{/* 
                             <NavLink to="/resume" style={{textDecoration: "none"}}>
                                 <Nav.Link href="#resume" className="navbarLink active">Resume</Nav.Link>
-                            </NavLink>
+                            </NavLink> */}
                             
                             <NavLink to="/contact" style={{textDecoration: "none"}}>
                                 <Nav.Link href="#contact" className="navbarLink active">Contact</Nav.Link>

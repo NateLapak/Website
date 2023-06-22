@@ -6,7 +6,7 @@ import {FaUniversity} from "react-icons/fa"
 const FirstLayer = () => {
     return (
         <div className="firstLayer">
-            <div className="container col-lg-8 col-md-6 col-sm-4">
+            <div className="container col-lg-8 col-md-5 col-sm-4">
 
                 {/* Heading */}
                 <h1><b>About me <FaUniversity /></b></h1>
@@ -16,8 +16,8 @@ const FirstLayer = () => {
 
                 {/* Paragraph containing a short description of what I'm doing */}
                 <p>
-                    I am currently pursuing a Bachelor of Science in 
-                    Computing Science at the University of Alberta. 
+                    I will be pursuing a Bachelor of Science in 
+                    Computing Science at the University of Alberta starting Fall 2023. 
                 </p> 
 
             </div>

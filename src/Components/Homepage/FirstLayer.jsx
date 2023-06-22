@@ -31,11 +31,11 @@ const FirstLayer = () => {
                     <p>
                         Since I began programming, I've taken an interest in web development and designing. 
                         I want to continue learning, collaborating
-                        and developing software to further my passion in computer science. My projects can be seen
+                        and developing software to further my passion in computer science. My projects can be found
                         further down the page.
                         <br />
                         <br />
-                        I am currently pursuing a Bachelor of Science in Computing Science at the University of Alberta.
+                        I will be pursuing a Bachelor of Science in Computing Science at the University of Alberta starting Fall 2023.
                     </p>
                 </div>
 

@@ -29,10 +29,28 @@
 .profile-pic {
     border-radius: 50%;
     float: left;
-    height: 420px;
-    width: 420px;
+    height: 430px;
+    width: 430px;
     margin: 5%;
 }
+
+/* Styling for profile pictures in smaller devices */
+@media (max-width: 1320px) {
+
+    .profile-pic {
+        height: 350px;
+        width: 350px;
+    }
+
+
+    .profile-text {
+        margin-top: 1.5%;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+
 
 
 /* Styling for profile pictures in smaller devices */
@@ -67,7 +85,7 @@
 }
 /* About me section (paragraph) */
 .about-me {
-    padding: 3%
+    padding: 2%
 }
 
 /* Change styling for paragraph */
