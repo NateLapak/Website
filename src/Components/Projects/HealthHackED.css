@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+.software {
+    animation: showup 5s;
+    padding: 2%;
+    text-align: center;
+}
+
 /* Earsketch general styling */
 .earsketch {
     padding: 3%;

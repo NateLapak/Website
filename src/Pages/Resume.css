@@ -1,0 +1,20 @@
+.resume img {
+  height: 800px;
+  width: 600px;
+}
+
+/* Styling for profile pictures in smaller devices */
+@media (max-width: 1150px) {
+  .resume img {
+    height: 600px;
+    width: 500px;
+  }
+}
+
+/* Styling for phones */
+@media (max-width: 800px) {
+  .resume img {
+    height: 500px;
+    width: 300px;
+  }
+}

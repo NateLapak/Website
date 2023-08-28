@@ -1,20 +1,22 @@
 /* Second layer of the about me page */
 .second-layer {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 3%;
-    height: auto;  
+  text-align: center;
+  background-color: #ffffff;
+  padding: 3%;
+  height: auto;
 }
 
 .second-layer h1 {
-    margin: 1%;
+  margin: 1%;
 }
 
 /* Change paragraph size to 20px */
 .second-layer p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.location, .plans, .media {
-    padding: 2%;
+.location,
+.plans,
+.media {
+  padding: 2%;
 }

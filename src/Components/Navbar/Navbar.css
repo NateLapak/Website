@@ -1,16 +1,18 @@
-.navbarHeader, .navbarLink {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+.navbarHeader,
+.navbarLink {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
 }
 
-.navbarHeader:hover, .navbarLink:hover {
-    background-color: rgba(225, 225, 225, 0.2)
+.navbarHeader:hover,
+.navbarLink:hover {
+  background-color: rgba(225, 225, 225, 0.2);
 }
 
 .nav-link.active {
-    color: white;
+  color: white;
 }
 
 .navbarLink {
-    font-size: 20px
+  font-size: 20px;
 }
