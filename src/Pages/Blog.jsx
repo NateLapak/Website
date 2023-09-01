@@ -1,19 +1,21 @@
-
-import Django from "../Components/Blog/Django"
-import Cybersecurity from "../Components/Blog/Cybersecurity"
-import Newpost from "../Components/Blog/Newpost"
+import SeptFirst from "../Components/Blog/SeptFirst";
+import Django from "../Components/Blog/Django";
+import Cybersecurity from "../Components/Blog/Cybersecurity";
+import Newpost from "../Components/Blog/Newpost";
 
 const Blog = () => {
-    return (
-        <div>
-            <Newpost/>
-            <hr/>
-            <Cybersecurity />
-            <hr />
-            <Django />
-            <hr />
-        </div>
-    )
-}
+  return (
+    <div>
+      <SeptFirst />
+      <hr />
+      <Newpost />
+      <hr />
+      <Cybersecurity />
+      <hr />
+      <Django />
+      <hr />
+    </div>
+  );
+};
 
-export default Blog
+export default Blog;

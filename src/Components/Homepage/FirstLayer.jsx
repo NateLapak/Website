@@ -15,7 +15,9 @@ const FirstLayer = () => {
         <img className="profile-pic" src={Profile} alt=""></img>
         <div className="container-fluid">
           <h1 className="profile-text">My name is Nathan Lapak</h1>
-          <h4 className="profile-title">Web development and Web design</h4>
+          <h4 className="profile-title">
+            Full-Stack development and University Student
+          </h4>
         </div>
         {/* Github and Linkedin icons */}
         <IconContext.Provider value={{ className: "shared-class", size: 40 }}>
