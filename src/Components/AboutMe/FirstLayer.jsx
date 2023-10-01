@@ -15,7 +15,7 @@ const FirstLayer = () => {
         </h1>
 
         {/* Image that contains my logo */}
-        <img src={logo} alt="" height={300}></img>
+        <img src={logo} className="logo-about" alt="" height={300}></img>
 
         {/* Paragraph containing a short description of what I'm doing */}
         <p>

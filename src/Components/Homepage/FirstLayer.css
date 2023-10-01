@@ -1,96 +1,207 @@
 .first-layer {
-    animation: showup 5s;
-    padding: 3%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  animation: showup 5s;
+  padding: 2%;
+  text-align: center;
+  background: -webkit-linear-gradient(to left, #ffffff, #383838);
 }
 
 /* Styling the for the profile paragraph and heading */
 .profile-text {
-    margin-top: 3%;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
+  margin-top: 2%;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .profile-title {
-    padding: 1%;
+  padding: 1%;
 }
 
 @keyframes showup {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    80% {opacity: 1;}
-    100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Styling for the profile picture */
 .profile-pic {
-    border-radius: 50%;
-    float: left;
-    height: 430px;
-    width: 430px;
-    margin: 5%;
+  margin-top: 4%;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
 }
 
 /* Styling for profile pictures in smaller devices */
 @media (max-width: 1320px) {
+  .profile-pic {
+    height: 350px;
+    width: 350px;
+  }
 
-    .profile-pic {
-        height: 350px;
-        width: 350px;
-    }
-
-
-    .profile-text {
-        margin-top: 1.5%;
-        font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
+  .profile-text {
+    margin-top: 1.5%;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+  }
 }
-
-
 
 /* Styling for profile pictures in smaller devices */
 @media (max-width: 900px) {
-    .profile-pic {
-        height: 200px;
-        width: 200px;
-    }
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+  }
 
-    .profile-text {
-        margin-top: 1.5%;
-        font-size: 30px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
+  .profile-text {
+    margin-top: 1.5%;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
 }
 
 /* Styling for phones */
 @media (max-width: 650px) {
-    
-    .profile-pic {
-        height: 100px;
-        width: 100px;
-    }
+  .profile-pic {
+    height: 150px;
+    width: 150px;
+  }
 
-    .profile-text {
-        margin-top: 1.5%;
-        font-size: 25px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
+  .profile-text {
+    margin-top: 1.5%;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+  }
 }
 /* About me section (paragraph) */
 .about-me {
-    padding: 2%
+  padding: 2%;
 }
 
 /* Change styling for paragraph */
 .about-me p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
 }
 
+.homepage-buttons button {
+  margin: 3%;
+}
+
+.circles {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(94, 93, 93, 0.4);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 15s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 22s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 55s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}

@@ -15,3 +15,7 @@
 .firstLayer p {
   font-size: 30px;
 }
+
+.logo-about {
+  border-radius: 50%;
+}
