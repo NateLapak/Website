@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6450111e.css",
-    "main.js": "/static/js/main.8d9373fb.js",
+    "main.css": "/static/css/main.99cfa608.css",
+    "main.js": "/static/js/main.ad5a61f3.js",
     "static/media/EarsketchSong.mp3": "/static/media/EarsketchSong.250c7e5cf3d50638d424.mp3",
     "static/media/EarSketch.png": "/static/media/EarSketch.0b49e0ab02fc925620b8.png",
     "static/media/EarSketch-code.png": "/static/media/EarSketch-code.640237c740be83e02a18.png",
@@ -19,18 +19,17 @@
     "static/media/Front-page.jpg": "/static/media/Front-page.fe77af200d263fa28c3a.jpg",
     "static/media/Python.png": "/static/media/Python.f1a07429fcf04073a41e.png",
     "static/media/tailwind.jpg": "/static/media/tailwind.2f69817385fbd483f9e2.jpg",
-    "static/media/Profile.jpg": "/static/media/Profile.a9f4915da12af4541adf.jpg",
     "static/media/Flask.jpg": "/static/media/Flask.4fc9366159ddace1a001.jpg",
     "static/media/DjangoLogo.png": "/static/media/DjangoLogo.4c677b78d12c96ea7add.png",
     "static/media/NextJS.jpg": "/static/media/NextJS.632979174d8c94509def.jpg",
     "static/media/Spirometer.jpg": "/static/media/Spirometer.97dca90fd4b3189917f9.jpg",
     "static/media/JS.webp": "/static/media/JS.2888c0a080c1a9d407b0.webp",
     "index.html": "/index.html",
-    "main.6450111e.css.map": "/static/css/main.6450111e.css.map",
-    "main.8d9373fb.js.map": "/static/js/main.8d9373fb.js.map"
+    "main.99cfa608.css.map": "/static/css/main.99cfa608.css.map",
+    "main.ad5a61f3.js.map": "/static/js/main.ad5a61f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6450111e.css",
-    "static/js/main.8d9373fb.js"
+    "static/css/main.99cfa608.css",
+    "static/js/main.ad5a61f3.js"
   ]
 }
