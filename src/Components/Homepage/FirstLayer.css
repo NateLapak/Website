@@ -3,7 +3,6 @@
   animation: showup 5s;
   padding: 2%;
   text-align: center;
-  background: -webkit-linear-gradient(to left, #ffffff, #383838);
 }
 
 /* Styling the for the profile paragraph and heading */
@@ -36,29 +35,15 @@
 .profile-pic {
   margin-top: 4%;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-}
-
-/* Styling for profile pictures in smaller devices */
-@media (max-width: 1320px) {
-  .profile-pic {
-    height: 350px;
-    width: 350px;
-  }
-
-  .profile-text {
-    margin-top: 1.5%;
-    font-size: 40px;
-    font-family: "Times New Roman", Times, serif;
-  }
+  height: 220px;
+  width: 235px;
 }
 
 /* Styling for profile pictures in smaller devices */
 @media (max-width: 900px) {
   .profile-pic {
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 185px;
   }
 
   .profile-text {
@@ -71,8 +56,8 @@
 /* Styling for phones */
 @media (max-width: 650px) {
   .profile-pic {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 140px;
   }
 
   .profile-text {
