@@ -1,6 +1,7 @@
 .resume img {
   height: 800px;
   width: 600px;
+  border: rgb(243, 243, 243) solid;
 }
 
 /* Styling for profile pictures in smaller devices */

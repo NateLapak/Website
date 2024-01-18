@@ -1,5 +1,5 @@
 import FirstLayer from "../Components/Homepage/FirstLayer"
-import HealthHackED from "../Components/Projects/HealthHackED"
+import ReceiptApp from "../Components/Projects/ReceiptApp"
 import Earsketch from "../Components/Projects/Earsketch"
 import MovieRental from "../Components/Projects/MovieRental" 
 import Technologies from "../Components/Homepage/Technologies"
@@ -9,7 +9,7 @@ const Homepage = () => {
         <div>
             <FirstLayer></FirstLayer>
             <Technologies />
-            <HealthHackED></HealthHackED>
+            <ReceiptApp />
             <Earsketch />
             <MovieRental />
         </div>

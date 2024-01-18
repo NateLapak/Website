@@ -1,5 +1,5 @@
 import resumePDF from "../Images/Resume.pdf";
-import resume from "../Images/Resume.jpg";
+import resume from "../Images/Resume.png";
 import "./Resume.css";
 
 const Resume = () => {
@@ -11,7 +11,10 @@ const Resume = () => {
           <br />
           Click <a href={resumePDF}>here</a> for the PDF version.
         </h3>
-        <img alt="" src={resume}></img>
+
+        <div>
+          <img alt="" src={resume}></img>
+        </div>
       </div>
     </div>
   );

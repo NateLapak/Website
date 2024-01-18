@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
-import "./Earsketch.css"
+import "./ReceiptApp.css"
 import {ImMusic} from "react-icons/im"
 import {FaFileAudio} from "react-icons/fa"
 

@@ -1,7 +1,7 @@
 import "./FirstLayer.css";
 
 import profile from "../../Images/AboutMeImages/headshot.jpg";
-import UofALogo from "../../Images/HealthHackED-images/UofA-logo.png";
+import UofALogo from "../../Images/ReceiptApp-images/UofA-logo.png"
 import { Link } from "react-router-dom";
 
 import { IconContext } from "react-icons/lib";
