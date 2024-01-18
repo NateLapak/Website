@@ -1,35 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.a281486a.css",
-    "main.js": "/static/js/main.ad5a61f3.js",
+    "main.css": "/static/css/main.83c141b8.css",
+    "main.js": "/static/js/main.cf2bc577.js",
     "static/media/EarsketchSong.mp3": "/static/media/EarsketchSong.250c7e5cf3d50638d424.mp3",
+    "static/media/Homepage-table.png": "/static/media/Homepage-table.274059ab21221483ee57.png",
     "static/media/EarSketch.png": "/static/media/EarSketch.0b49e0ab02fc925620b8.png",
+    "static/media/Homepage-pic1.png": "/static/media/Homepage-pic1.b9fab1b1797e8716a213.png",
+    "static/media/HackED-Beta2023.png": "/static/media/HackED-Beta2023.bde75ebe9e4c4b607b98.png",
     "static/media/EarSketch-code.png": "/static/media/EarSketch-code.640237c740be83e02a18.png",
-    "static/media/Resume.jpg": "/static/media/Resume.a9b566e011b9292ced5e.jpg",
     "static/media/HomepageView.jpg": "/static/media/HomepageView.7697e5693d5362655fde.jpg",
     "static/media/Sample-movie-code.jpg": "/static/media/Sample-movie-code.eb16da520deec9b2b7ff.jpg",
+    "static/media/Resume.png": "/static/media/Resume.cfa1d07b15f742fc2edc.png",
     "static/media/ReactLogo.png": "/static/media/ReactLogo.73dbb5bcec516da82694.png",
-    "static/media/Resume.pdf": "/static/media/Resume.3fe46366fb1f6991e9a2.pdf",
-    "static/media/Sample-code.jpg": "/static/media/Sample-code.6c1216647e1cc5e149cb.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.a90f80ea5c3c9762da3b.pdf",
     "static/media/Logo.png": "/static/media/Logo.90f0ce8877bb81a09a0f.png",
     "static/media/Cyber.jpg": "/static/media/Cyber.f75a4f96318e79bd17b7.jpg",
     "static/media/Hacking.jpg": "/static/media/Hacking.d438fa9a5765c580b92b.jpg",
     "static/media/UofA-logo.png": "/static/media/UofA-logo.b4e2856735f3c974a67e.png",
     "static/media/React.png": "/static/media/React.4e208b3c2ac6da07801c.png",
-    "static/media/Front-page.jpg": "/static/media/Front-page.fe77af200d263fa28c3a.jpg",
     "static/media/Python.png": "/static/media/Python.f1a07429fcf04073a41e.png",
     "static/media/tailwind.jpg": "/static/media/tailwind.2f69817385fbd483f9e2.jpg",
     "static/media/Flask.jpg": "/static/media/Flask.4fc9366159ddace1a001.jpg",
     "static/media/DjangoLogo.png": "/static/media/DjangoLogo.4c677b78d12c96ea7add.png",
     "static/media/NextJS.jpg": "/static/media/NextJS.632979174d8c94509def.jpg",
-    "static/media/Spirometer.jpg": "/static/media/Spirometer.97dca90fd4b3189917f9.jpg",
     "static/media/JS.webp": "/static/media/JS.2888c0a080c1a9d407b0.webp",
     "index.html": "/index.html",
-    "main.a281486a.css.map": "/static/css/main.a281486a.css.map",
-    "main.ad5a61f3.js.map": "/static/js/main.ad5a61f3.js.map"
+    "main.83c141b8.css.map": "/static/css/main.83c141b8.css.map",
+    "main.cf2bc577.js.map": "/static/js/main.cf2bc577.js.map"
   },
   "entrypoints": [
-    "static/css/main.a281486a.css",
-    "static/js/main.ad5a61f3.js"
+    "static/css/main.83c141b8.css",
+    "static/js/main.cf2bc577.js"
   ]
 }
