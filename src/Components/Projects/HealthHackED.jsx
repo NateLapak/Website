@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
 
 import "./HealthHackED.css";
-import { GiLungs } from "react-icons/gi";
+import { FaReceipt } from "react-icons/fa";
 
 import UofALogo from "../../Images/HealthHackED-images/UofA-logo.png";
 import HackathonLogo from "../../Images/HealthHackED-images/HackED-2023.jpg";
@@ -27,7 +27,7 @@ const HealthHackED = () => {
         <div>
           <div className="header">
             <h1>
-              Project 1: HealthHackED <GiLungs />
+              Project 1: Receipt Scanner Application <FaReceipt />
             </h1>
             <Button
               onClick={() => setOpen(!open)}
