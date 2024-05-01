@@ -20,7 +20,7 @@ const Technologies = () => {
 
       <div className="technologies">
         <h4>
-          I use React, ChakraUI & Flask for full stack, personal projects.
+          I use React and Flask for personal projects.
         </h4>
         <div className="images container col-lg-5 col-md-4 col-sm-3">
           <img className="w-25" src={ReactLogo} alt=""></img>
