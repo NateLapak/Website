@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.83c141b8.css",
-    "main.js": "/static/js/main.16c78047.js",
+    "main.js": "/static/js/main.78a92a2d.js",
     "static/media/EarsketchSong.mp3": "/static/media/EarsketchSong.250c7e5cf3d50638d424.mp3",
     "static/media/Homepage-table.png": "/static/media/Homepage-table.274059ab21221483ee57.png",
     "static/media/EarSketch.png": "/static/media/EarSketch.0b49e0ab02fc925620b8.png",
     "static/media/Homepage-pic1.png": "/static/media/Homepage-pic1.b9fab1b1797e8716a213.png",
+    "static/media/headshot.png": "/static/media/headshot.7b26856626d919fc3c23.png",
     "static/media/HackED-Beta2023.png": "/static/media/HackED-Beta2023.bde75ebe9e4c4b607b98.png",
     "static/media/EarSketch-code.png": "/static/media/EarSketch-code.640237c740be83e02a18.png",
     "static/media/Resume.png": "/static/media/Resume.6f0b96aad7e42831fae4.png",
@@ -26,10 +27,10 @@
     "static/media/JS.webp": "/static/media/JS.2888c0a080c1a9d407b0.webp",
     "index.html": "/index.html",
     "main.83c141b8.css.map": "/static/css/main.83c141b8.css.map",
-    "main.16c78047.js.map": "/static/js/main.16c78047.js.map"
+    "main.78a92a2d.js.map": "/static/js/main.78a92a2d.js.map"
   },
   "entrypoints": [
     "static/css/main.83c141b8.css",
-    "static/js/main.16c78047.js"
+    "static/js/main.78a92a2d.js"
   ]
 }
