@@ -8,6 +8,7 @@ https://natelapak.github.io/Website
 
 # About project
 This project was created after having already done multiple other web developper projects. I wanted to create a website that would showcase my programming, my projects and my computer science abilities when applying for an internship or a job. This project is built entirely by me and serves to demonstrate my programming and web development abilties.
+Since the repository is public, the website contains no backend and important data (like API keys) that can be taken.
 
 # Built With
 
