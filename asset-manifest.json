@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.eea5b4cb.css",
-    "main.js": "/static/js/main.cb2beb44.js",
+    "main.js": "/static/js/main.f661a860.js",
     "static/media/CMPUT301.mp4": "/static/media/CMPUT301.c41b7b9cd3d5ee7394e5.mp4",
     "static/media/Homepage-table.png": "/static/media/Homepage-table.274059ab21221483ee57.png",
     "static/media/Homepage-pic1.png": "/static/media/Homepage-pic1.b9fab1b1797e8716a213.png",
     "static/media/HackED-Beta2023.png": "/static/media/HackED-Beta2023.bde75ebe9e4c4b607b98.png",
-    "static/media/Resume.png": "/static/media/Resume.4f90886b8e65e18adf28.png",
-    "static/media/Resume.pdf": "/static/media/Resume.a5b9b88b62ad7a04d102.pdf",
+    "static/media/Resume.png": "/static/media/Resume.e9114001b810bba4eafb.png",
+    "static/media/Resume.pdf": "/static/media/Resume.7e04799b6381046baace.pdf",
     "static/media/HomepageView.jpg": "/static/media/HomepageView.7697e5693d5362655fde.jpg",
     "static/media/Sample-movie-code.jpg": "/static/media/Sample-movie-code.eb16da520deec9b2b7ff.jpg",
     "static/media/headshot.png": "/static/media/headshot.825e2410e15e7c2b6013.png",
@@ -20,10 +20,10 @@
     "static/media/DjangoLogo.png": "/static/media/DjangoLogo.4c677b78d12c96ea7add.png",
     "index.html": "/index.html",
     "main.eea5b4cb.css.map": "/static/css/main.eea5b4cb.css.map",
-    "main.cb2beb44.js.map": "/static/js/main.cb2beb44.js.map"
+    "main.f661a860.js.map": "/static/js/main.f661a860.js.map"
   },
   "entrypoints": [
     "static/css/main.eea5b4cb.css",
-    "static/js/main.cb2beb44.js"
+    "static/js/main.f661a860.js"
   ]
 }
